@@ -2,9 +2,10 @@
 layout: defaults/page
 permalink: about.html
 narrow: true
+title: About
 ---
 
-## What is it?
+# {% highlight javascript %}whoami{% endhighlight %}
 
 {% include components/intro.md %}
 
