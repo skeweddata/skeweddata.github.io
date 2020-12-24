@@ -2,7 +2,6 @@
 layout: defaults/page
 permalink: about.html
 narrow: true
-title: whoami
 ---
 
 ## What is it?
