@@ -1,3 +1,5 @@
 jQuery(document).ready(function() {
-    alert("Wooo");
+    $(".footnote").each(function() {
+	console.log($(this).html());
+    });
 });
