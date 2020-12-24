@@ -1,5 +1,5 @@
 ---
-title:  Political Polling Part 0\: Introduction
+title:  Political Polling Part 0&#92; Introduction
 tags:
   - Polling
 ---
