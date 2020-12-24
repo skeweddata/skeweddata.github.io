@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: about.html
 narrow: true
-title: {% highlight bash %}whoami{% endhighlight %}
+title: whoami
 ---
 
 ## What is it?
