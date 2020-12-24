@@ -1,5 +1,5 @@
 ---
-title:  Political Polling Part 0: Introduction
+title:  Political Polling Part 0 Introduction
 tags:
   - Polling
 ---
@@ -7,6 +7,7 @@ tags:
 In the aftermath of the 2020 elections, I was confused.
 
 <!--more-->
+
 As a data scientist,
 my main portal to understanding to what was happening in the race
 were models. I devoured articles about the 538 model, read blog posts on 
