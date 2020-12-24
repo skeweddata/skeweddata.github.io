@@ -5,7 +5,8 @@ jQuery(document).ready(function() {
 	var footnote = $(footnote_id);
 	console.log(footnote_id);
 	footnote.each(function() {
-	    console.log($(this), "wooo");
+	    console.log("WOOOO");
+	    console.log($(this));
 	});
     });
 });
