@@ -5,7 +5,7 @@ narrow: true
 title: About
 ---
 
-# {% highlight javascript %}whoami{% endhighlight %}
+# `whoami`
 
 {% include components/intro.md %}
 
