@@ -6,6 +6,7 @@ title: Hi there!
 ---
 This is my personal website. All opinions in it are my
 own[^opinions].  
+<br />
 
 [^opinions]:
     Unless you're so persuaded by my arguments that you want to parrot them
