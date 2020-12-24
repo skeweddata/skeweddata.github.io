@@ -7,8 +7,8 @@ highlighter:      rouge
 excerpt_separator: <!--more-->
 
 # Config for your profile.
-title:            Andrew Schechtman-Rook            # Site title
-name:             Andrew Schechtman-Rook            # Your name
+title:            Friday Theme            # Site title
+name:             Friday Theme            # Your name
 avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
