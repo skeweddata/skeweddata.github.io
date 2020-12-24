@@ -2,13 +2,9 @@
   href: https://github.com/AndrewRook
   icon: entypo/github.svg
 
-- caption: Facebook
-  href: https://www.facebook.com
-  icon: entypo/facebook.svg
-
-- caption: Twitter
-  href: https://www.twitter.com
-  icon: entypo/twitter.svg
+- caption: LinkedIn
+  href: https://www.linkedin.com/in/andrewschechtmanrook/
+  icon: entypo/linkedin.svg
 
 - caption: US/Eastern
   icon: entypo/location-pin.svg
