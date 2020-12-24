@@ -4,6 +4,8 @@ jQuery(document).ready(function() {
 	var footnote_id = $(this).attr("href");
 	var footnote = $(footnote_id);
 	console.log(footnote_id);
-	console.log(footnote);
+	footnote.each(function() {
+	    console.log($(this));
+	});
     });
 });
