@@ -21,7 +21,7 @@
 {% for name in __names | sort %}
 
   {% comment %} If not equal to previous then it must be unique as sorted {% endcomment %}
-  {% unless name == previous %}
+  {% unless name == previous | name == 'draft' %}
 
     {% comment %} Push to group_names {% endcomment %}
     {% assign group_names = group_names | push: name %}

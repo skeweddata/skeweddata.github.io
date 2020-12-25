@@ -49,6 +49,10 @@ polls](https://www.cnn.com/2018/11/19/politics/2018-midterm-elections-good-year-
 is restricted to voters who only like to vote when Trump is
 on the ballot.)
 
+After mulling it over, I realized that part of my problem was that I
+only had a superficial understanding of how polls actually worked. The
+issue is that, other than the headline numbers, polls release very few 
+
 [^twitter]:
     In hindsight, this was the moment where I really should have
     put the computer down and done something more productive with my time. 
