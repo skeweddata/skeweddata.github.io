@@ -23,5 +23,8 @@ jQuery(document).ready(function() {
             console.log("Wooo");
             $(this).insertBefore($(this).prev("div"));
         }
+        if ($this).hasClass("footnotes")) {
+            $(this).prepend("<h2>Footnotes</h2>");
+        }
     });
 });
