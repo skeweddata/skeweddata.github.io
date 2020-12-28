@@ -17,14 +17,14 @@
 //});
 jQuery(document).ready(function() {
     console.log("a");
+    $(".footnotes").each(function() {
+        $(this).prepend("<h2>Footnotes</h2>");
+    });
     $(".content div").each(function() {
     console.log("b");
         if ($(this).hasClass("previous-next")) {
             console.log("Wooo");
             $(this).insertBefore($(this).prev("div"));
-        }
-        if ($this).hasClass("footnotes")) {
-            $(this).prepend("<h2>Footnotes</h2>");
         }
     });
 });
