@@ -8,14 +8,17 @@ layout: default
     {% include components/post-meta.html %}
 </div>
 
-{% for post in site.posts %}
-    {% if post.title == page.title %}
-        <b>WOOOOO</b>
-    {% endif %}
-{% endfor %}
-
 {{ page.previous.title }}
 {{ page.next.title }}
 
 {{ content }}
+
+<div class="previous-next">
+    {% if page.previous.url %}
+        <a class="previous" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next.url %}
+        <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+    {% endif %}
+</div>
 
