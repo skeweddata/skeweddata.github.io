@@ -16,9 +16,11 @@
 //    $(".footnotes").css({display: "hidden");
 //});
 jQuery(document).ready(function() {
+    console.log("a");
     $(".content div").each(function() {
+    console.log("b");
         if ($(this).hasClass("previous-next")) {
-            console.log("Wooo")
+            console.log("Wooo");
         }
     });
 });
