@@ -58,10 +58,19 @@ operate.
 
 Unfortunately, that's pretty hard to do! Pollsters are very circumspect with exactly how they
 survey people, considering information about how they choose things like likely voter models or
-demographics to segment by proprietary "secret sauce"[^secret]. Poll data for upcoming elections is generally released only in 
+demographics to segment by to be their proprietary "secret sauce"[^secret]. Poll data for upcoming elections is generally released only in 
 pre-aggregated form, **after** it has been processed[^poll_details]. And while there is
 [a repository for detailed historical polling information](https://ropercenter.cornell.edu/), it isn't
 open access[^roper].
+
+Without access to actual data, I figured the best way to get a feeling for the practice and pitfalls of
+polling would be to simulate it, which in addition to providing the raw data necessary to analyze also 
+has the benefit of also showing the ground truth reality. So I put together a 
+[small Python library](https://github.com/AndrewRook/polling_simulator) with
+several methods (or at least my best understanding of them) for sampling, weighting, and aggregating polls.
+I then tried those methods out on simulated electorates to get a sense for the core strategies to avoid
+bias and obtain accurate results. In future posts I'll go through how polls work, common problems which can
+cause them to be inaccurate, and potential ways to control for those biases. 
 
 [^twitter]:
     In hindsight, this was the moment where I really should have
