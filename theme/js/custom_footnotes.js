@@ -21,6 +21,7 @@ jQuery(document).ready(function() {
     console.log("b");
         if ($(this).hasClass("previous-next")) {
             console.log("Wooo");
+            console.log($(this).prev("div"));
         }
     });
 });
