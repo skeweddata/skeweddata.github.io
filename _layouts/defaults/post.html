@@ -9,7 +9,9 @@ layout: default
 </div>
 
 {% for post in site.posts %}
-    {{ post }}
+    {% if post.title == page.title %}
+        <b>WOOOOO</b>
+    {% endif %}
 {% endfor %}
 
 {{ content }}
