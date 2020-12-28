@@ -15,3 +15,10 @@
 //jQuery(document).ready(function() {
 //    $(".footnotes").css({display: "hidden");
 //});
+jQuery(document).ready(function() {
+    $(".content div").each(function() {
+        if ($(this).hasClass("previous-next")) {
+            console.log("Wooo")
+        }
+    });
+});
