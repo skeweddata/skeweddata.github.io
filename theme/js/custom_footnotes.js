@@ -22,6 +22,7 @@ jQuery(document).ready(function() {
         if ($(this).hasClass("previous-next")) {
             console.log("Wooo");
             console.log($(this).prev("div"));
+            $(this).insertBefore($(this).prev("div"));
         }
     });
 });
