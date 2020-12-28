@@ -2,6 +2,9 @@
     float: right;
     text-align: right;
 }
+.previous-next {
+    margin-bottom: 1rem;
+}
 .hll, .highlight pre { background-color: #343a40; border: 0; padding: 5px; border-radius: 3px; padding-left: 10px;}
 .highlight pre code {font-size: 12px; color: #eee; filter: saturate(0.5);}
  .c { color: #75715e } /* Comment */
