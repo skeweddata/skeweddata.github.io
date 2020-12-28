@@ -11,7 +11,7 @@
 // 	});
 //     });
 // });
-
-jQuery(document).ready(function() {
-    $(".footnotes").css({display: "hidden", collapse: "true");
-});
+//
+//jQuery(document).ready(function() {
+//    $(".footnotes").css({display: "hidden");
+//});
