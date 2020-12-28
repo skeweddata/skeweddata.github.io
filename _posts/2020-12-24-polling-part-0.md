@@ -75,15 +75,18 @@ cause them to be inaccurate, and potential ways to control for those biases.
 [^twitter]:
     In hindsight, this was the moment where I really should have
     put the computer down and done something more productive with my time. 
+
 [^agnostic]:
     They don't totally ignore how pollsters work: 538, for example, rates individual pollsters based on 
     whether they adhere to established best-practices like using live-caller polls and 
     adjusts for their historical partisan lean. But these are relatively crude measures.
+
 [^secret]:
     For example, Emerson had all of one sentence to say about its methodology in 
     [a poll of the 2020 Senate runoffs in Georgia](https://emersonpolling.reportablenews.com/pr/georgia-2020-incumbent-republicans-with-slight-advantages-in-senate-run-offs):
     > The datasets were weighted by gender, age, race, education, and 
     > region based on 2020 voter turnout modeling.
+
 [^poll_details]:
     For example, [this SurveyUSA poll](http://www.surveyusa.com/client/PollReport.aspx?g=bbb4e7fb-04c1-4b0f-b0b4-dbdb743cae4e)
     of the 2020 Senate runoffs in Georgia has breakouts by several different demographics, but does not provide
@@ -91,6 +94,7 @@ cause them to be inaccurate, and potential ways to control for those biases.
     were used in the weighting. Even how they model turnout is unclear: despite providing the breakouts
     for their turnout question, there isn't a clear mapping between the fraction of participants who provided
     each answer and the actual number of voters considered to be likely to vote. 
+
 [^roper]:
     The rate for their lowest tier of membership, as of December 2020, was $2,815. I find it really unfortunate that a research center at an Ivy League university can't figure out a way
     to enable any form of free access, or even just affordable access, for individuals without the financial
