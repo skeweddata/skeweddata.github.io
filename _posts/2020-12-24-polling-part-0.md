@@ -83,9 +83,7 @@ cause them to be inaccurate, and potential ways to control for those biases.
 
 [^secret]:
     For example, Emerson had all of one sentence to say about its methodology in 
-    [a poll of the 2020 Senate runoffs in Georgia](https://emersonpolling.reportablenews.com/pr/georgia-2020-incumbent-republicans-with-slight-advantages-in-senate-run-offs):
-    > The datasets were weighted by gender, age, race, education, and 
-    > region based on 2020 voter turnout modeling.
+    [a poll of the 2020 Senate runoffs in Georgia](https://emersonpolling.reportablenews.com/pr/georgia-2020-incumbent-republicans-with-slight-advantages-in-senate-run-offs).
 
 [^poll_details]:
     For example, [this SurveyUSA poll](http://www.surveyusa.com/client/PollReport.aspx?g=bbb4e7fb-04c1-4b0f-b0b4-dbdb743cae4e)
