@@ -64,4 +64,10 @@ defaults:
       show_profile: false
       layout: defaults/list
 
+  -
+    scope:
+      path: "images"
+    values:
+      image: true
+
 
