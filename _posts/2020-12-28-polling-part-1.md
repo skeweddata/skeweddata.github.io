@@ -15,8 +15,23 @@ but for our purposes really boils down to two things:
 
 <!--more-->
 
-1. Surveying a small fraction of the total electorate can reflect
+1. Surveying a small fraction of the total electorate can accurately reflect
 the preferences of the overall population.
 2. The polling results you get will be less precise the smaller your
 sample is.
 
+That first point — whether or not your polls are 
+predictive of actual election results — is something that I'll
+cover in depth in future posts. But here I'll talk about that
+second point: even the most accurate poll has uncertainty associated
+with it, just because you've only polled a tiny fraction of the
+full electorate.
+
+To illustrate this, let's generate an example electorate. We'll keep
+it simple: a single population of 1 million potential voters, with
+a _slight_ preference for a Democratic candidate over a Republican, 
+50.2% – 49.8%. Additionally, each person in this electorate has a
+70% chance of actually voting in the election. 500 simulations of
+an election with these parameters look like this:
+
+![election_results](election_results.png)
