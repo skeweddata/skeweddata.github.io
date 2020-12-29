@@ -1,5 +1,6 @@
 ---
 title:  Political Polling Part 1&#58; Sampling
+excerpt_type: text
 tags:
   - Polling
   - draftlj
