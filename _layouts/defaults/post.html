@@ -12,6 +12,10 @@ layout: default
     {% include components/post-meta.html %}
 </div>
 
+{% if page.preface_text %}
+    <p>{{ page.preface_text }}</p>
+{% endif %}
+
 {{ content }}
 
 <div class="previous-next">
