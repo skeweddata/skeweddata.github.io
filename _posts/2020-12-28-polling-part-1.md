@@ -3,7 +3,7 @@ title:  Political Polling Part 1&#58; Sampling
 tags:
   - Polling
   - draftlj
-preface_text: testing testing
+preface_text: <i>testing testing woo</i>
 ---
 
 The central idea that underpins all polling is the concept of statistical sampling,
