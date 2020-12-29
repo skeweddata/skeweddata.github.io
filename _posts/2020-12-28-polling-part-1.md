@@ -3,7 +3,7 @@ title:  Political Polling Part 1&#58; Sampling
 tags:
   - Polling
   - draftlj
-preface_text: This post is part of a series on political polling. To start at the beginning, click <a href="2020/12/24/polling-part-0.html">here</a>.
+preface_text: This post is part of a series on political polling. To start at the beginning, click <a href="../../../2020/12/24/polling-part-0.html">here</a>.
 ---
 
 The central idea that underpins all polling is the concept of statistical sampling,
