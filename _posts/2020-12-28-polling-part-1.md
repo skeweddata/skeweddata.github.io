@@ -34,4 +34,4 @@ a _slight_ preference for a Democratic candidate over a Republican,
 70% chance of actually voting in the election. 500 simulations of
 an election with these parameters look like this:
 
-![election_results](election_results.png)
+![election_results](/images/2020-12-28-polling-part-1/election_results.png)

@@ -9,8 +9,8 @@ own[^opinions].
 <br />
 
 [^opinions]:
-    Unless you love my opinions so much that you want to parrot them
-    yourself, in which case they can be yours too.
+    Unless you like them so much that you want to adopt them
+    as your own, in which case they can be yours too.
 
 # Recent Posts
 
