@@ -54,6 +54,6 @@ electorate and record the results:
 |  3   |<span style="color: green">0.505</span>|<span style="color: red">0.495</span>|
 |  4   |<span style="color: red">0.496</span>|<span style="color: green">0.504</span>|
 |  5   |<span style="color: green">0.501</span>|<span style="color: red">0.499</span>|
-{: .table }
+{: .table .thead-light .table-striped .table-bordered}
 
 woo
