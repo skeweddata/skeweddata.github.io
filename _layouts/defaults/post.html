@@ -25,7 +25,7 @@ layout: default
         {% endunless %}
     {% endif %}
     {% if page.next.url %}
-        {% unless page.previous.tags contains "draft" %}
+        {% unless page.next.tags contains "draft" %}
             <a class="next" href="{{ page.next.url }}">{{ page.next.title | truncate trunc_chars }} &raquo;</a>
         {% endunless %}
     {% endif %}
