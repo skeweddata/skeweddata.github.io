@@ -19,7 +19,7 @@ layout: default
 {{ content }}
 
 <div class="previous-next">
-    {% if page.previous.url & unless page.previous.tags contains "draft"%}
+    {% if page.previous.url & unless page.previous.tags contains "draft" %}
         Wooo{{ page.previous.tags }}YEAH
         <a class="previous" href="{{ page.previous.url }}">&laquo; {{ page.previous.title | truncate trunc_chars }}</a>
     {% endif %}
