@@ -44,16 +44,26 @@ that there is actually a distribution of outcomes:
 The vote margin varies due to sampling randomness, as in each simulation — like in reality — every
 voter has a less than 100% chance of actually voting. But with a million potential voters
 the electorate this distribution is really small: about 0.1% on either side
-of the actual result. Now let's poll 1000 random members of this
-electorate and record the results:
+of the actual result. Now let's run five polls, each of 1000 random members of this
+electorate, and record the results:
 
 | Poll | Democrat | Republican |
 |:----:|:--------:|:----------:|
-|  1   |<span style="color: red">0.497</span>|<span style="color: green">0.503</span>|
-|  2   |<span style="color: red">0.491</span>|<span style="color: green">0.509</span>|
-|  3   |<span style="color: green">0.505</span>|<span style="color: red">0.495</span>|
-|  4   |<span style="color: red">0.496</span>|<span style="color: green">0.504</span>|
-|  5   |<span style="color: green">0.501</span>|<span style="color: red">0.499</span>|
-{: .table .thead-dark .table-striped .table-bordered}
+|  1   |<span style="color: red">0.507</span>|<span style="color: green">0.493</span>|
+|  2   |<span style="color: red">0.533</span>|<span style="color: green">0.467</span>|
+|  3   |<span style="color: green">0.494</span>|<span style="color: red">0.506</span>|
+|  4   |<span style="color: red">0.473</span>|<span style="color: green">0.527</span>|
+|  5   |<span style="color: green">0.489</span>|<span style="color: red">0.511</span>|
+{: .table .table-striped .table-bordered}
 
-woo
+We know from how we set up the simulation that the Democrat is going
+to win the election with a margin of about 0.4%, and yet of these
+five polls the Republican is ahead in three of them, in one case by
+over 5%[^democrat]. What gives?
+
+
+[^democrat]:
+    If you look closely you'll notice there's also a poll in this sample where the _Democrat_ is the one
+    winning by more than 5%, but I focused on the polls with the Republican
+    in the lead since the public cares way more about polling
+    errors that suggest the wrong winner.
