@@ -50,9 +50,9 @@ electorate and record the results:
 | Poll | Democrat | Republican |
 |:----:|:--------:|:----------:|
 |  1   |<span style="color: red">0.497</span>|<span style="color: green">0.503</span>|
-|  2   |  0.491   |    0.509   |
-|  3   |  0.505   |    0.495   |
-|  4   |  0.496   |    0.504   |
-|  5   |  0.501   |    0.499   |
+|  2   |<span style="color: red">0.491</span>|<span style="color: green">0.509</span>|
+|  3   |<span style="color: green">0.505</span>|<span style="color: red">0.495</span>|
+|  4   |<span style="color: red">0.496</span>|<span style="color: green">0.504</span>|
+|  5   |<span style="color: green">0.501</span>|<span style="color: red">0.499</span>|
 
 woo
