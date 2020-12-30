@@ -2,7 +2,7 @@
 title:  Political Polling Part 1&#58; Sampling
 tags:
   - Polling
-  - draftlj
+  - draft
 preface_text: >-
   This post is part of a series on political polling. To start 
   at the beginning, click 
@@ -41,7 +41,16 @@ that there is actually a distribution of outcomes:
 
 ![election_results_zoomed](/images/2020-12-28-polling-part-1/election_results_zoomed.png)
 
-The vote margin varies due to sampling randomness, as in each simulation (and like reality) every
+The vote margin varies due to sampling randomness, as in each simulation — like in reality — every
 voter has a less than 100% chance of actually voting. But with a million potential voters
 the electorate this distribution is really small: about 0.1% on either side
-of the actual result.
+of the actual result. Now let's poll 1000 random members of this
+electorate and record the results:
+
+| Poll | Democrat | Republican |
+|:----:|:--------:|:----------:|
+|  1   |<span style="color: red">0.497</span>|    0.503   |
+|  2   |  0.491   |    0.509   |
+|  3   |  0.505   |    0.495   |
+4	0.496	0.504
+5	0.501	0.499
