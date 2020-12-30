@@ -30,8 +30,18 @@ full electorate.
 To illustrate this, let's generate an example electorate. We'll keep
 it simple: a single population of 1 million potential voters, with
 a _slight_ preference for a Democratic candidate over a Republican, 
-50.2% – 49.8%. Additionally, each person in this electorate has a
+50.2%–49.8%. Additionally, each person in this electorate has a
 70% chance of actually voting in the election. 500 simulations of
 an election with these parameters look like this:
 
 ![election_results](/images/2020-12-28-polling-part-1/election_results.png)
+
+Zooming in just to the region around the simulation results shows
+that there is actually a distribution of outcomes:
+
+![election_results_zoomed](/images/2020-12-28-polling-part-1/election_results_zoomed.png)
+
+The vote margin varies due to sampling randomness, as in each simulation (as in reality!) every
+voter has a less than 100% chance of actually voting. But with a million potential voters
+the electorate this distribution is really small: about 0.1% on either side
+of the actual result.
