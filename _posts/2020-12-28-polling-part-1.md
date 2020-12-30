@@ -61,9 +61,32 @@ to win the election with a margin of about 0.4%, and yet of these
 five polls the Republican is ahead in three of them, in one case by
 over 5%[^democrat]. What gives?
 
+Well, it's that sampling randomness again, only this time it's a
+much larger effect because our sample is so small[^sampling]. This
+is where poll aggregators like [538](https://fivethirtyeight.com/) or 
+[RealClearPolitics](https://www.realclearpolitics.com/) come into
+play: since individual polls have this significant intrinsic variation,
+it's necessary to look at multiple polls in order to get an accurate
+picture of the race. For example, if instead of looking at only five
+polls we look at 500, it becomes totally clear that the race is
+essentially a tossup:
+
+![poll_results](/images/2020-12-28-polling-part-1/poll_results.png)
+
 
 [^democrat]:
     If you look closely you'll notice there's also a poll in this sample where the _Democrat_ is the one
     winning by more than 5%, but I focused on the polls with the Republican
     in the lead since the public cares way more about polling
     errors that suggest the wrong winner.
+
+[^sampling]:
+    If you're having trouble with the concept of smaller samples
+    producing less precise results, think about what would happen
+    in the extreme case where we polled just two people. While,
+    in a close election like this, most polls would show a 50-50 split
+    in the vote, a fair few would happen to have polled two Democratic
+    or Republican voters just by chance and show 100% of the vote going
+    to one candidate. This is similar to flipping a coin several times —
+    sometimes you'll get 10 heads in a row, but that doesn't mean the
+    coin is weighted.
