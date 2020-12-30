@@ -73,6 +73,16 @@ essentially a tossup:
 
 ![poll_results](/images/2020-12-28-polling-part-1/poll_results.png)
 
+The silver lining about sampling uncertainty is that it's well
+understood for statistical problems like political polling, and
+as such is fairly easy to estimate: this is what the uncertainties 
+(sometimes reported as "confidence intervals") predominantly are.
+
+This is not the only source of uncertainty
+or error in polling, however, and unfortunately other issues
+can bias polling results in ways that are much harder to 
+compensate for. I'll dig into those in upcoming posts. 
+
 
 [^democrat]:
     If you look closely you'll notice there's also a poll in this sample where the _Democrat_ is the one
@@ -89,4 +99,4 @@ essentially a tossup:
     or Republican voters just by chance and show 100% of the vote going
     to one candidate. This is similar to flipping a coin several times —
     sometimes you'll get 10 heads in a row, but that doesn't mean the
-    coin is weighted.
+    coin isn't fair.
