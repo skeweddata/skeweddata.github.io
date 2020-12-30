@@ -19,14 +19,15 @@ layout: default
 {{ content }}
 
 <div class="previous-next">
-    {% if page.previous.url & unless page.previous.tags contains "draft" %}
-        Wooo{{ page.previous.tags }}YEAH
+    {% if page.previous.url  %}
         {% unless page.previous.tags contains "draft" %}
             <a class="previous" href="{{ page.previous.url }}">&laquo; {{ page.previous.title | truncate trunc_chars }}</a>
         {% endunless %}
     {% endif %}
-    {% if page.next.url & unless page.next.tags contains "draft"%}
-        <a class="next" href="{{ page.next.url }}">{{ page.next.title | truncate trunc_chars }} &raquo;</a>
+    {% if page.next.url %}
+        {% unless page.previous.tags contains "draft" %}
+            <a class="next" href="{{ page.next.url }}">{{ page.next.title | truncate trunc_chars }} &raquo;</a>
+        {% endunless %}
     {% endif %}
 </div>
 
