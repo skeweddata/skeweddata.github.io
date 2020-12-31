@@ -31,6 +31,10 @@ Republicans, which might look like this:
 
 ![candidate preference_by_age](/images/2020-12-30-polling-part-2/age_distribution.png)
 
+Here, while the **total** number of potential voters at a given age decreases 
+since older people are more likely to die, the fraction of actual voters declines at a slower
+rate since the voting likelihood partially counteracts the effects of aging. 
+
 Most demographics are categories — gender, education, voter registration status, etc —
 and are pretty easy to segment the population by. For continuous 
 demographics like age, however, pollsters generally bucket the population
