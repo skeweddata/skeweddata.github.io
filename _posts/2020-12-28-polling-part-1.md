@@ -7,6 +7,8 @@ preface_text: >-
   This post is part of a series on political polling. To start 
   at the beginning, click 
   <a href="../../../2020/12/24/polling-part-0.html">here</a>.
+  The code used to generate the charts in this post can be found
+  <a href="https://github.com/AndrewRook/polling_simulator/blob/main/1_introduction.ipynb">here</a>.
 ---
 
 The central idea that underpins all polling is the concept of statistical sampling,
