@@ -5,7 +5,7 @@ tags:
   - draft
 ---
 
-In the aftermath of the 2020 elections, I was confused.
+In the aftermath of the 2020 U.S. elections, I was confused.
 
 <!--more-->
 
