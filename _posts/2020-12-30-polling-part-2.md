@@ -26,14 +26,13 @@ this:
 
 ![turnout by age](/images/2020-12-30-polling-part-2/age_distribution_voting.png)
 
-It's also true that younger people generally tend to support Democratic candidates more than
-Republicans, which might look like this:
-
-![candidate preference_by_age](/images/2020-12-30-polling-part-2/age_distribution.png)
-
 Here, while the **total** number of potential voters at a given age decreases 
 since older people are more likely to die, the fraction of actual voters declines at a slower
-rate since the voting likelihood partially counteracts the effects of aging. 
+rate since the voting likelihood partially counteracts the effects of aging.
+Similarly, it's also true that younger people generally tend to support Democratic candidates more than
+Republicans, which might look like this:
+
+![candidate preference_by_age](/images/2020-12-30-polling-part-2/age_distribution.png) 
 
 Most demographics are categories — gender, education, voter registration status, etc —
 and are pretty easy to segment the population by. For continuous 
