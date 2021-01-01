@@ -42,11 +42,12 @@ pollster's purposes, would end up looking something like this:
 
 ![candidate preference by age buckets](/images/2020-12-30-polling-part-2/age_distribution_binned.png)
 
-Demographic differences matter greatly for polls. On one hand, when properly
-accounted for, they can result in more accurate polls. On the other
-hand, if you don't correctly consider the demographics of the
-population, you can get polls that are systematically wrong. I'll
-dive into some examples of this in the next posts.  
+Demographic differences matter greatly for polls. If you don't correctly 
+consider the demographics of the
+population, at best your polls will have larger uncertainties than
+you expect, and at worst you can get polls that give you wildly wrong
+answers. 
+I'll dive into some examples of this in the next posts.  
 
 [^sampling]:
     The reason for this is the same sampling uncertainty from the
