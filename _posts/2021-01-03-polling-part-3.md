@@ -1,5 +1,5 @@
 ---
-title:  Political Polling Part 2&#58; Demographics
+title:  Political Polling Part 3&#58; Turnout
 tags:
   - Polling
   - draft
@@ -40,10 +40,17 @@ both candidate preference and turnout likelihood by age:
 | 65+       | 90%                | 25%-75%                        |
 {: .table .table-striped .table-bordered}
 
-These demographics result in about a four point victory for the 
-Republican:
+Powered by the high turnout in the 65+ age group, these demographics result in 
+about a four point victory for the Republican candidate:
 
 ![election results](/images/2021-01-03-polling-part-3/actual_election.png)
+
+But, because of how many more _potential_ voters are in the younger
+demographics — which skew heavily democratic — naively polling a
+random 1000 of them will make it look like a slam dunk victory for 
+the Democrat:
+
+![naive poll](/images/2021-01-03-polling-part-3/naive_poll.png)  
 
 [^education]:
     For instance, in 2016 candidate preference was unexpectedly 
