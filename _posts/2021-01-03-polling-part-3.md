@@ -46,13 +46,43 @@ about a four point victory for the Republican candidate:
 ![election results](/images/2021-01-03-polling-part-3/actual_election.png)
 
 But, because of how many more _potential_ voters are in the younger
-demographics — which skew heavily democratic — naively polling a
-random 1000 of them will make it look like a slam dunk victory for 
+demographics — which skew heavily Democratic — naively polling any
+random thousand of them will make it look like a slam dunk victory for 
 the Democrat:
 
 ![naive poll](/images/2021-01-03-polling-part-3/naive_poll.png)  
+
+You can see that not only does the Democrat have a clear lead 
+in the polls, but that lead is so large that not once in 500
+polls is the Republican ahead. If you were to publish these
+results you'd wind up looking pretty stupid come election night.
+
+Fortunately, turnout is the systematic error that is easiest
+to control for[^easy]. The simplest way is to just ask respondents
+how likely they are to vote, and then build a mapping between 
+responses ("absolutely certain", "not likely at all", etc) to 
+probabilities. Then you can just weight each response by the 
+turnout probability, and then your poll will be properly calibrated:
+
+![turnout weighted poll](/images/2021-01-03-polling-part-3/turnout_weighted_poll.png)
+
+One of the really neat[^scary] things about turnout modeling is that you 
+can usually go back and check how good your model was. In many cases
+information about whether or not someone voted in an election is
+[publicly available](https://www.findlaw.com/voting/how-u-s--elections-work/what-information-is-public-from-your-voting-record.html),
+at least to certain groups such as political campaigns. You can then
+join this data to your polling results, and determine whether or not
+the turnout likelihood you attributed to each respondent matched their
+actual behavior.
 
 [^education]:
     For instance, in 2016 candidate preference was unexpectedly 
     correlated with education, contributing to the systematic
     shift between state polls and the final result.
+    
+[^easy]:
+    At least, easiest in my opinion.
+    
+[^scary]:
+    or terrifying, depending on your perspective. To me it's a bit
+    of both.
