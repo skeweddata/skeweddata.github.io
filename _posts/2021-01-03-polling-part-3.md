@@ -2,7 +2,6 @@
 title:  Political Polling Part 3&#58; Turnout
 tags:
   - Polling
-  - draft
 preface_text: >-
   This post is part of a series on political polling. To start 
   at the beginning, click 
@@ -74,6 +73,11 @@ at least to certain groups such as political campaigns. You can then
 join this data to your polling results, and determine whether or not
 the turnout likelihood you attributed to each respondent matched their
 actual behavior.
+
+Unfortunately, a turnout model is not the only thing a pollster
+can get wrong. In addition to turnout, a good pollster must also
+keep track of who is even responding to their calls. I'll discuss
+that next.
 
 [^education]:
     For instance, in 2016 candidate preference was unexpectedly 

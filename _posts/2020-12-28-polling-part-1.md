@@ -2,7 +2,6 @@
 title:  Political Polling Part 1&#58; Sampling
 tags:
   - Polling
-  - draft
 preface_text: >-
   This post is part of a series on political polling. To start 
   at the beginning, click 
