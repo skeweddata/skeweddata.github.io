@@ -2,9 +2,9 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Hi there!
+title: Hi There!
 ---
-This is my personal website. All opinions in it are my
+This is my personal website and blog. All opinions in it are my
 own[^opinions].  
 <br />
 
