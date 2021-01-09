@@ -75,6 +75,40 @@ response rate are both correlated with candidate choice:
     <td>50%</td>
     <td>78%-22%</td>
   </tr>
+  
+  <tr>
+    <td rowspan="3" vertical-align="middle">50-65</td>
+    <td>High School</td>
+    <td>10%</td>
+    <td>10%-90%</td>
+  </tr>
+  <tr>
+    <td>College</td>
+    <td>50%</td>
+    <td>40%-60%</td>
+  </tr>
+  <tr>
+    <td>Postgraduate</td>
+    <td>50%</td>
+    <td>70%-30%</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="3" vertical-align="middle">65+</td>
+    <td>High School</td>
+    <td>10%</td>
+    <td>0%-100%</td>
+  </tr>
+  <tr>
+    <td>College</td>
+    <td>50%</td>
+    <td>25%-75%</td>
+  </tr>
+  <tr>
+    <td>Postgraduate</td>
+    <td>50%</td>
+    <td>62%-38%</td>
+  </tr>
 </tbody>
 </table>
 
