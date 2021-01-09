@@ -1,5 +1,5 @@
 ---
-title:  Political Polling Part 4&#58; Response Rates
+title:  Political Polling Part 4&#58; The Tricky Stuff
 tags:
   - Polling
   - draft
@@ -11,47 +11,26 @@ preface_text: >-
   <a href="https://github.com/AndrewRook/polling_simulator/blob/main/4_response_rate.ipynb">here</a>.
 ---
 
-In the weeks after the 2020 presidential election, one hypothesis
-put forward [by](https://www.washingtonpost.com/opinions/2020/11/19/why-were-polls-wrong-ignore-calls/)
-[several](https://www.vox.com/policy-and-politics/2020/11/10/21551766/election-polls-results-wrong-david-shor) 
-[analysts](https://fivethirtyeight.com/features/could-social-alienation-among-some-trump-supporters-help-explain-why-polls-underestimated-trump-again/) 
-was that errors in polls of several states
-might be attributed to differences in response rates between Trump and Biden supporters.
-But what does that mean, and how could it have impacted polls so severely?
+A big problem, possibly the biggest problem in political polling,
+is that you can't guarantee what demographics will be correlated
+with the candidates, or how voters will turn out at the ballot box
+or even pick up the phone to respond to a poll. 
 
 <!--more-->
 
-## Response Rates:
-In short, the response rate is just the odds that someone will pick up the
-phone[^phone] when a pollster calls. In a twist that will surprise
-exactly no one, it turns out that not everyone is super jazzed to
-answer polls. 
-
-* On one hand, not all that different from turnout modeling
-  * if you know your demographic groups, you can correct for it
-* On the other hand, there are some key differences
-  * makes polling more expensive
-  * Not as easy to know that you're applying the right correction
-     * unlike correcting for turnout, where you already have responses
-       and you can validate your model against actual data, here you
-       have none of that
-  * 
-
-This can be problematic for poll accuracy in three
-main ways:
+For example, one of the likely reasons 2016 presidential polls 
+were off in several key states was the [increase in correlation 
+between candidate preference and education](https://www.nytimes.com/2017/05/31/upshot/a-2016-review-why-key-state-polls-were-wrong-about-trump.html).
+This change, coupled with a longstanding trend of more educated voters
+being more likely to respond to polls, led to an overestimate of
+Hilary Clinton's victory chances. More recently, 
+[early](https://fivethirtyeight.com/features/could-social-alienation-among-some-trump-supporters-help-explain-why-polls-underestimated-trump-again/) 
+[reads](https://www.vox.com/policy-and-politics/2020/11/10/21551766/election-polls-results-wrong-david-shor) 
+on Donald Trump's 2020 overperformance in the midwest are suggesting it was
+increasing Trump support among people who are socially isolated[^isolated]
+and therefore uninterested in responding to polls.
 
 
-
-If you can't get in touch with a
-portion of the electorate, then you may not be able to accurately 
-measure their interest in the candidates — same gist as when you 
-don't know whether or not a demographic group will vote. 
-
-If you 
-
-The problem with responses is twofold:
-1. 
-
-
-[^phone]:
-    Or answer the text message, or sign up for the online survey, etc.
+[^isolated]:
+    Or it could be that Trump supporters are growing more isolated, 
+    exactly what is causing what here is not totally clear to me.
