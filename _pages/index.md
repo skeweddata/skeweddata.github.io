@@ -10,7 +10,7 @@ own[^opinions].
 
 [^opinions]:
     Unless you like them so much that you want to adopt them
-    as your own, in which case they can be yours too.
+    for yourself, in which case they can be yours too.
 
 # Recent Posts
 

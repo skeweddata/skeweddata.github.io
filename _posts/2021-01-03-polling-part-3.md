@@ -109,18 +109,54 @@ potential voters are more likely to pick up the phone[^landlines].
 | 65+       | 90%                | 25%-75%                        |
 {: .table .table-striped .table-bordered}
 
-If you ignore demographics, your poll results will show an extremely
-close race:
+If you ignore demographics, your poll results will show an close race
+with the Republican candidate favored
 
 ![naive poll](/images/2021-01-03-polling-part-3/naive_poll_response.png)
 
-But, like with the turnout example, this is wrong, although unlike
+But, just like with the turnout example, this is wrong, although unlike
 in the turnout example here the Democrat runs away with the actual
 election:
 
 ![actual election](/images/2021-01-03-polling-part-3/actual_election_response.png)
 
+Unlike with turnout, response rates are slightly trickier to correct
+for — it's harder to adjust for _anything_ when the problem is 
+"couldn't get any data at all". The way you
+approach the problem is to compare the number of responses you
+do get to the number of people you expect in the demographic,
+then either:
+1. adjust the weighting of the poll results by demographic group
+   based on how over- or under-represented they are.
+2. keep polling people from the under-represented demographic groups,
+   until the populations match what you expect.
+   
+Option 1 is cheaper since you don't have to spend longer on the poll,
+but can lead to increased uncertainties because some of your demographic
+groups may only have a couple of respondents. Option 2 is the reverse,
+more expensive but you don't have to worry about the undue influence
+of one or two respondents from a hard-to-poll demographic[^combined].
+Since this is a simulation, I know that I don't have to worry too much
+about sample size in my demographic groups. So using Option 1 is fine,
+and generates a much more accurate poll:
 
+![response weighted poll](/images/2021-01-03-polling-part-3/response_weighted_poll.png)
+
+You can see that the polls now correctly predicts both that the
+Democrat is likely to win, but also are centered around the actual
+vote margins.
+
+## Don't Get too Excited
+Hopefully this post has provided a solid grounding on two of the
+major sources of bias a pollster has to be aware of, as well as
+the core tools pollsters have to mitigate these issues. But —
+and this is a large **but** — all of these strategies rely on 
+one critical assumption: you correctly understand the demographics
+of the electorate. If you don't know exactly what dimensions
+candidate support, turnout, and response rate are correlated along,
+you'll have a hell of a time generating an accurate poll. I'll talk
+about that scenario next time.
+ 
 
 [^education]:
     For instance, in 2016 candidate preference was unexpectedly 
@@ -145,3 +181,8 @@ election:
     are easier to poll than cellphones because the area code
     directly maps to a physical location and calls are harder
     to screen.
+    
+[^combined]:
+     You can also combine both approaches: ensure you get a 
+     baseline number of respondents for each demographic group, 
+     then do the weighting.
