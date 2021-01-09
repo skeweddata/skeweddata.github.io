@@ -1,8 +1,7 @@
 ---
-title:  Political Polling Part 3&#58; Turnout
+title:  Political Polling Part 3&#58; Turnout and Response Rate
 tags:
   - Polling
-  - draft
 preface_text: >-
   This post is part of a series on political polling. To start 
   at the beginning, click 
@@ -122,7 +121,7 @@ election:
 
 Unlike with turnout, response rates are slightly trickier to correct
 for — it's harder to adjust for _anything_ when the problem is 
-"couldn't get any data at all". The way you
+"couldn't get any data at all". The simplest way to
 approach the problem is to compare the number of responses you
 do get to the number of people you expect in the demographic,
 then either:
