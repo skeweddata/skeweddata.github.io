@@ -1,5 +1,5 @@
 ---
-title:  Political Polling Part 4&#58; The Tricky Stuff
+title:  Political Polling Part 5&#58; The Tricky Stuff
 tags:
   - Polling
   - draft
@@ -8,7 +8,7 @@ preface_text: >-
   at the beginning, click 
   <a href="../../../2020/12/24/polling-part-0.html">here</a>.
   The code used to generate the charts in this post can be found
-  <a href="https://github.com/AndrewRook/polling_simulator/blob/main/4_response_rate.ipynb">here</a>.
+  <a href="https://github.com/AndrewRook/polling_simulator/blob/main/5_obfuscated_demographics">here</a>.
 ---
 
 A big problem, possibly the biggest problem in political polling,
@@ -29,6 +29,42 @@ Hilary Clinton's victory chances. More recently,
 on Donald Trump's 2020 overperformance in the midwest are suggesting it was
 increasing Trump support among people who are socially isolated[^isolated]
 and therefore uninterested in responding to polls.
+
+To get a better sense of how this could happen, we can generate
+an electorate similar to the midwest in 2016, where education and
+response rate are both correlated with candidate choice:
+
+<table class="table table-striped table-bordered">
+<thead>
+  <th style="text-aligh: center">Age Group</th>
+  <th style="text-aligh: center">Education</th>
+  <th style="text-aligh: center">Response Likelihood</th>
+  <th style="text-aligh: center">Candidate Preference (Dem-Rep)</th>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3">18-30</td>
+    <td>High School</td>
+    <td>10%</td>
+    <td>62%-38%</td>
+  </tr>
+  <tr>
+    <td>High School</td>
+    <td>10%</td>
+    <td>62%-38%</td>
+  </tr>
+  <tr>
+    <td>College</td>
+    <td>50%</td>
+    <td>75%-25%</td>
+  </tr>
+  <tr>
+    <td>Postgraduate</td>
+    <td>50%</td>
+    <td>88%-12%</td>
+  </tr>
+</tbody>
+</table>
 
 
 [^isolated]:
