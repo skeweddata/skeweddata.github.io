@@ -23,8 +23,34 @@ But what does that mean, and how could it have impacted polls so severely?
 
 ## Response Rates:
 In short, the response rate is just the odds that someone will pick up the
-phone[^phone] when a pollster calls. If you can't get in touch with a
-portion of the electorate, then you may not be able to accurately
+phone[^phone] when a pollster calls. In a twist that will surprise
+exactly no one, it turns out that not everyone is super jazzed to
+answer polls. 
+
+* On one hand, not all that different from turnout modeling
+  * if you know your demographic groups, you can correct for it
+* On the other hand, there are some key differences
+  * makes polling more expensive
+  * Not as easy to know that you're applying the right correction
+     * unlike correcting for turnout, where you already have responses
+       and you can validate your model against actual data, here you
+       have none of that
+  * 
+
+This can be problematic for poll accuracy in three
+main ways:
+
+
+
+If you can't get in touch with a
+portion of the electorate, then you may not be able to accurately 
+measure their interest in the candidates — same gist as when you 
+don't know whether or not a demographic group will vote. 
+
+If you 
+
+The problem with responses is twofold:
+1. 
 
 
 [^phone]:
