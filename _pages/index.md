@@ -15,7 +15,9 @@ own[^opinions].
 # Recent Posts
 
 {% for post in site.posts limit:3 %}
-{% include components/post-card.html %}
+    {% unless post.tags contains "draft" %}
+        {% include components/post-card.html %}
+    {% endunless %}
 {% endfor %}
 
 
