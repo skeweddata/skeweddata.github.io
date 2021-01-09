@@ -13,8 +13,6 @@ own[^opinions].
     as your own, in which case they can be yours too.
 
 # Recent Posts
-
-
 {% for post in site.posts limit:3 %}
     {% include components/post-card.html %}
 {% endfor %}
