@@ -12,7 +12,10 @@ preface_text: >-
 ---
 
 In the weeks after the 2020 presidential election, one hypothesis
-put forward by several analysts was that errors in polls of several states
+put forward [by](https://www.washingtonpost.com/opinions/2020/11/19/why-were-polls-wrong-ignore-calls/)
+[several](https://www.vox.com/policy-and-politics/2020/11/10/21551766/election-polls-results-wrong-david-shor) 
+[analysts](https://fivethirtyeight.com/features/could-social-alienation-among-some-trump-supporters-help-explain-why-polls-underestimated-trump-again/) 
+was that errors in polls of several states
 might be attributed to differences in response rates between Trump and Biden supporters.
 But what does that mean, and how could it have impacted polls so severely?
 
