@@ -1,5 +1,5 @@
 ---
-title:  Political Polling Part 5&#58; The Tricky Stuff
+title:  Political Polling Part 4&#58; The Tricky Stuff
 tags:
   - Polling
   - draft
@@ -43,12 +43,7 @@ response rate are both correlated with candidate choice:
 </thead>
 <tbody>
   <tr>
-    <td rowspan="3">18-30</td>
-    <td>High School</td>
-    <td>10%</td>
-    <td>62%-38%</td>
-  </tr>
-  <tr>
+    <td rowspan="3" vertical-align="middle">18-30</td>
     <td>High School</td>
     <td>10%</td>
     <td>62%-38%</td>
@@ -62,6 +57,23 @@ response rate are both correlated with candidate choice:
     <td>Postgraduate</td>
     <td>50%</td>
     <td>88%-12%</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="3" vertical-align="middle">30-50</td>
+    <td>High School</td>
+    <td>10%</td>
+    <td>32%-68%</td>
+  </tr>
+  <tr>
+    <td>College</td>
+    <td>50%</td>
+    <td>55%-45%</td>
+  </tr>
+  <tr>
+    <td>Postgraduate</td>
+    <td>50%</td>
+    <td>78%-22%</td>
   </tr>
 </tbody>
 </table>
