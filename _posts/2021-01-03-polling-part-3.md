@@ -8,7 +8,8 @@ preface_text: >-
   at the beginning, click 
   <a href="../../../2020/12/24/polling-part-0.html">here</a>.
   The code used to generate the charts in this post can be found
-  <a href="https://github.com/AndrewRook/polling_simulator/blob/main/3_turnout.ipynb">here</a>.
+  <a href="https://github.com/AndrewRook/polling_simulator/blob/main/3_turnout.ipynb">here</a>
+  and <a href="https://github.com/AndrewRook/polling_simulator/blob/main/4_response_rate.ipynb">here</a>.
 ---
 
 Previously in this series I 
@@ -24,9 +25,17 @@ that pollsters spend the bulk of their time worrying about.
 
 These errors come when an assumption that the pollster has made
 turns out to be wrong, usually because candidate preference ends
-up being correlated in an unexpected way[^education]. One way
-this can happen is with voter turnout, which is well known
-to be correlated with age (among other potential factors).
+up being correlated in an unexpected way[^education]. Two major
+ways this can happen are with voter turnout and poll response rates
+
+## Voter Turnout
+Voter turnout is the likelihood that a given person in a electorate
+will actually show up at the polls on the day of the election. Turnout
+can be intertwined with candidate preference through several demographic
+variables, a voter's age being perhaps the most consistent correlation.
+Currently, in the US, older voters are both more likely to vote **and**
+more likely to vote Republican. A pollster ignores this fact at their
+peril. 
  
 To demonstrate, let's set up another election, again with
 a million potential voters, but this time we'll change
@@ -57,7 +66,7 @@ in the polls, but that lead is so large that not once in 500
 polls is the Republican ahead. If you were to publish these
 results you'd wind up looking pretty stupid come election night.
 
-Fortunately, turnout is the systematic error that is easiest
+Fortunately, turnout is a systematic error that is relatively
 to control for[^easy]. The simplest way is to just ask respondents
 how likely they are to vote, and then build a mapping between 
 responses ("absolutely certain", "not likely at all", etc) to 
@@ -76,9 +85,42 @@ the turnout likelihood you attributed to each respondent matched their
 actual behavior.
 
 Unfortunately, a turnout model is not the only thing a pollster
-can get wrong. In addition to turnout, a good pollster must also
-keep track of who is even responding to their calls. I'll discuss
-that next.
+can get wrong. 
+
+## Response Rates
+In addition to turnout, a good pollster must also
+keep track of who is even responding to their calls[^phone].
+In a twist that will surprise
+exactly no one, it turns out that not everyone is super jazzed to
+answer polls. Just like with turnout, if response rates are connected
+to candidate preference, your poll may be skewed.
+
+Lets set up another electorate to demonstrate. 
+We'll use the same demographic groups as before, but this time
+we'll keep the turnout likelihood at a flat 70% for every group
+and vary the response likelihood instead, assuming that older
+potential voters are more likely to pick up the phone[^landlines].
+ 
+| Age Group | Response Likelihood | Candidate Preference (Dem-Rep) |
+|:---------:|:------------------:|:------------------------------:|
+| 18-30     | 30%                | 80%-20%                        | 
+| 30-50     | 50%                | 60%-40%                        |
+| 50-65     | 70%                | 40%-60%                        |
+| 65+       | 90%                | 25%-75%                        |
+{: .table .table-striped .table-bordered}
+
+If you ignore demographics, your poll results will show an extremely
+close race:
+
+![naive poll](/images/2021-01-03-polling-part-3/naive_poll_response.png)
+
+But, like with the turnout example, this is wrong, although unlike
+in the turnout example here the Democrat runs away with the actual
+election:
+
+![actual election](/images/2021-01-03-polling-part-3/actual_election_response.png)
+
+
 
 [^education]:
     For instance, in 2016 candidate preference was unexpectedly 
@@ -91,3 +133,15 @@ that next.
 [^scary]:
     or terrifying, depending on your perspective. To me it's a bit
     of both.
+    
+[^phone]:
+    Or answer the text message, or sign up for the online survey, etc.
+    
+[^landlines]:
+    There are several plausible reasons why this could be true in 
+    the real world: retirees are more likely to be less busy; younger
+    people may prefer to communicate by text rather than take phone
+    calls; or seniors may be more likely to own a landline, which
+    are easier to poll than cellphones because the area code
+    directly maps to a physical location and calls are harder
+    to screen.
