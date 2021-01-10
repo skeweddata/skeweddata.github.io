@@ -47,6 +47,6 @@ but when I get the urge to share here's where it'll go. Enjoy!
     about (American) football to help build a portfolio for my initial
     move into Data Science, which I [published online](https://phdfootball.blogspot.com/) mostly so there
     would be a paper trail if anyone ever tried to verify my
-    resume. Since then, however, a) my interests have expanded beyond
+    claims. Since then, however, a) my interests have expanded beyond
     football and b) blogspot kind of sucked, so I figured it made sense
     to put new material on a different site. This one!
