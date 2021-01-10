@@ -2,7 +2,6 @@
 title:  Political Polling Part 4&#58; The Tricky Stuff
 tags:
   - Polling
-  - draft
 preface_text: >-
   This post is part of a series on political polling. To start 
   at the beginning, click 
