@@ -27,7 +27,7 @@ being more likely to respond to polls, led to an overestimate of
 Hilary Clinton's victory chances. More recently, 
 [early](https://fivethirtyeight.com/features/could-social-alienation-among-some-trump-supporters-help-explain-why-polls-underestimated-trump-again/) 
 [reads](https://www.vox.com/policy-and-politics/2020/11/10/21551766/election-polls-results-wrong-david-shor) 
-on Donald Trump's 2020 overperformance in the midwest are suggesting it was
+on Donald Trump's 2020 overperformance in the midwest suggest it was
 increasing Trump support among people who are socially isolated[^isolated]
 and therefore uninterested in responding to polls.
 
