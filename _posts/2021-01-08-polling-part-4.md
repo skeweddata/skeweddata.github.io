@@ -43,7 +43,7 @@ response rate are both correlated with candidate choice:
 </thead>
 <tbody>
   <tr>
-    <td rowspan="3" style="vertical-align:middle;text-align:right">18-30</td>
+    <td rowspan="3" style="vertical-align:middle">18-30</td>
     <td>High School</td>
     <td>10%</td>
     <td>62%-38%</td>
@@ -111,6 +111,25 @@ response rate are both correlated with candidate choice:
   </tr>
 </tbody>
 </table>
+
+We'll leave turnout at 50% for every group: while in reality
+this would also be correlated with these demographics, keeping it
+constant makes the problem simpler to understand. 
+
+These demographics result in about a small victory for the Republican
+candidate:
+
+![election results](/images/2021-01-08-polling-part-4/election_results.png)
+
+But, unlike in past posts, we'll pretend that we don't have
+an omniscient view of the important demographics and, like
+in 2016, we'll assume that age is the only important one. As
+promised, even after doing the demographic weighting discussed
+[in the last post](../../../2020/12/24/polling-part-0.html) the
+results are seriously off:
+
+![poll with incorrect demographics](/images/2021-01-08-polling-part-4/poll_assumed_demographic.png)
+
 
 
 [^isolated]:
