@@ -210,8 +210,8 @@ The challenges with this idea are twofold:
    giving up before completing the poll. In some cases it may be
    possible to link respondents to demographics separately from
    poll questions (e.g. pulling public-records data), but getting
-   that data can be expensive (and sometimes 
-   [shady](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal)).
+   that data can be expensive and sometimes 
+   [shady](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal).
    
 
 ### 3. Include Data About Contacting Respondents 
