@@ -176,9 +176,64 @@ produce approximately the same result. For example:
   much harder than normal to get your response rate up.
 * A poll that offers a significant cash incentive for completion. 
 
-### 2. Check For Trends Against More Demographics
+The downsides to changing methodologies is that it increases the
+chances for you to make a mistake in analyzing your data: there's
+just more choices you'll need to make in trying to figure out
+the results from a variety of polls. Varying polling types can
+also cost more, both in time spent building the new polls out
+but also in that they may cost more to execute (especially if
+you run a larger poll, or try harder to followup with respondents). 
+
+### 2. Check For Trends Against Unused Demographics
+If you have additional demographic information about your poll
+respondents beyond what you use to weight for turnout and response
+rate, you can check the raw responses to see if candidate preference
+is correlated with any of the "extraneous" demographics. For instance,
+going back to the simulated example above, plotting candidate 
+preference versus education would have shown a correlation, indicating
+that in future polls we should consider weighting by that demographic
+as well.
+
+The challenges with this idea are twofold:
+1. There is a chance of a false correlation, especially if you try
+   to correlate many different demographic segmentations with
+   candidate preference. Therefore you would need to be very careful
+   to ensure that you were actually finding a real electoral signal,
+   rather than just getting lucky with random noise. 
+2. Gathering lots of demographic information is difficult. Asking
+   poll respondents about demographics costs money, and adding too
+   many questions will bloat survey times and may lead to people
+   giving up before completing the poll. In some cases it may be
+   possible to link respondents to demographics separately from
+   poll questions (e.g. pulling public-records data), but getting
+   that data can be expensive (and sometimes 
+   [shady](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal)).
+   
 
 ### 3. Include Data About Contacting Respondents 
+If your poll attempts to contact respondents multiple times,
+the data just on how long it takes to get a response could be
+useful. If there is a relationship between candidate preference
+and the number of contact attempts **within a demographic group**,
+then that indicates you probably can't extrapolate the voting
+preferences of your poll respondents to the broader population. 
+Here's what that looks like in my simulations, looking at just
+the 30-50 year old age group when using 5 contact attempts:
+
+![Voter preference by number of contact attempts](/images/2021-01-08-polling-part-4/preference_by_contacts.png)
+
+You can see how the candidate preference shifts from Democrat to
+Republican as you go from one to five contact attempts. 
+
+This approach depends on knowing how people react to multiple contact
+attempts: my simulator assumes that they have a flat chance of responding
+to a given contact attempt, but in reality that may not be the right
+model. Additionally, if there is a group of people who _never_ respond
+to polls, there's nothing this method will do to help you understand
+if their preferences meaningfully differ from the respondents.
+
+## Final Thoughts
+ 
 
 [^isolated]:
     Or it could be that Trump supporters are growing more isolated, 
