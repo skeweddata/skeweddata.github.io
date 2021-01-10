@@ -30,7 +30,7 @@ on Donald Trump's 2020 overperformance in the midwest are suggesting it was
 increasing Trump support among people who are socially isolated[^isolated]
 and therefore uninterested in responding to polls.
 
-To get a better sense of how this could happen, we can generate
+To get a better sense of how this could happen, we can simulate
 an electorate similar to the midwest in 2016, where education and
 response rate are both correlated with candidate choice:
 
@@ -116,22 +116,82 @@ We'll leave turnout at 50% for every group: while in reality
 this would also be correlated with these demographics, keeping it
 constant makes the problem simpler to understand. 
 
-These demographics result in about a small victory for the Republican
+These demographics result in a small victory for the Republican
 candidate:
 
 ![election results](/images/2021-01-08-polling-part-4/election_results.png)
 
-But, unlike in past posts, we'll pretend that we don't have
+But, unlike in [past](../../../2020/12/28/polling-part-1.html) 
+[posts](../../../2021/01/03/polling-part-3.html), 
+we'll pretend that we don't have
 an omniscient view of the important demographics and, like
-in 2016, we'll assume that age is the only important one. As
+in 2016, we'll ignore education. As
 promised, even after doing the demographic weighting discussed
-[in the last post](../../../2020/12/24/polling-part-0.html) the
-results are seriously off:
+[in the last post](../../../2021/01/03/polling-part-3.html) the
+results are still seriously off:
 
 ![poll with incorrect demographics](/images/2021-01-08-polling-part-4/poll_assumed_demographic.png)
 
+This poll overstates the Democratic vote-share by close to 10 points,
+and is so far off that if a campaign or PAC were to treat these results
+as accurate it would likely lead them to make bad decisions[^decisions].
 
+## How Can We Fix This?
+
+Up to this point, I feel pretty confident that the techniques I've
+been describing in this series have been reasonably close to what
+pollsters are actually doing: in doing my research for this I found
+multiple explainers on high level strategies for handling response
+rates and turnout likelihood, and the ideas discussed so far are not
+so complicated or esoteric that it would be challenging for a pollster
+to implement them. From here, however, I'm flying pretty blind: I'm 
+going to suggest a couple of things that I think would be helpful,
+but they depend on details about how polls work that I do not
+know well. Furthermore, I have very little idea about how novel
+they are. For all I know they are already in common use.
+
+### 1. Vary Survey Strategy
+If pollsters make multiple polls of the same race, then generally
+seem to use the same polling strategy each time: the number of
+respondents is very similar poll-to-poll, as are the questions
+asked[^ipsos]. On the one had this is a good idea, as it makes
+the results between polls directly comparable to each other. But
+on the other hand if one of your polls has a faulty assumption,
+then that problem will propagate to **all** of your polls.
+
+If carefully thought out, I believe occasionally varying 
+your survey strategy would be a useful way to gain confidence
+that the assumptions you're making are valid. Basically, if
+you have the "correct" view of the important factors influencing
+voting patterns, changing the details of your mehodology should
+produce approximately the same result. For example: 
+
+* A poll using a different contact method, e.g. if you've been 
+  calling respondents on the phone, try a poll done by mail instead.
+* A poll where you vary the order of the questions, or only
+  ask a subset of the questions, or even a poll where instead of
+  only asking about politics you start by asking questions on
+  a totally different topic.
+* A mega-poll with triple the respondents, or one where you work
+  much harder than normal to get your response rate up.
+* A poll that offers a significant cash incentive for completion. 
+
+### 2. Check For Trends Against More Demographics
+
+### 3. Include Data About Contacting Respondents 
 
 [^isolated]:
     Or it could be that Trump supporters are growing more isolated, 
     exactly what is causing what here is not totally clear to me.
+    
+[^decisions]:
+    For instance, cancelling candidate appearances in the state,
+    eliminating ad spend, and/or shifting get-out-the-vote efforts.
+    
+[^ipsos]:
+    For example, between September and November 2020 Ipsos 
+    ran six polls of the 2020 presidential race in Wisconsin
+    (tracked by [fivethirtyeight](https://projects.fivethirtyeight.com/polls/president-general/wisconsin/).
+    All of these polls use nearly identical numbers of respondents,
+    the same questions, the same demographic sampling, and the 
+    same turnout models.
