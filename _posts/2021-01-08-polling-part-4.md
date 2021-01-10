@@ -43,7 +43,7 @@ response rate are both correlated with candidate choice:
 </thead>
 <tbody>
   <tr>
-    <td rowspan="3" vertical-align="middle">18-30</td>
+    <td rowspan="3" style="vertical-align:middle">18-30</td>
     <td>High School</td>
     <td>10%</td>
     <td>62%-38%</td>
