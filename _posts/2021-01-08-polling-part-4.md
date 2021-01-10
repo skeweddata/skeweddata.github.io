@@ -60,7 +60,7 @@ response rate are both correlated with candidate choice:
   </tr>
   
   <tr>
-    <td rowspan="3" vertical-align="middle">30-50</td>
+    <td rowspan="3" style="vertical-align:middle">30-50</td>
     <td>High School</td>
     <td>10%</td>
     <td>32%-68%</td>
@@ -77,7 +77,7 @@ response rate are both correlated with candidate choice:
   </tr>
   
   <tr>
-    <td rowspan="3" vertical-align="middle">50-65</td>
+    <td rowspan="3" style="vertical-align:middle">50-65</td>
     <td>High School</td>
     <td>10%</td>
     <td>10%-90%</td>
@@ -94,7 +94,7 @@ response rate are both correlated with candidate choice:
   </tr>
   
   <tr>
-    <td rowspan="3" vertical-align="middle">65+</td>
+    <td rowspan="3" style="vertical-align:middle">65+</td>
     <td>High School</td>
     <td>10%</td>
     <td>0%-100%</td>
