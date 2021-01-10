@@ -232,8 +232,20 @@ model. Additionally, if there is a group of people who _never_ respond
 to polls, there's nothing this method will do to help you understand
 if their preferences meaningfully differ from the respondents.
 
-## Final Thoughts
- 
+## Where Do Polls Go From Here?
+Polling seems pretty straightforward on the surface — randomly
+mash the buttons on a phone and then ask whoever answers who
+they're going to vote for! — but there's far more to it, and
+it's getting harder. Response rates are down, more and more of
+our lives revolve around cell phones and the internet instead of
+landlines, and significant swaths of the electorate are re-aligning
+themselves in surprising ways. Underestimating Trump twice in a row
+should provoke a lot of soul-searching among pollsters, especially
+since the early indications are that these issues are going to get
+worse instead of better. I don't think the "tried-and-true" techniques
+that pollsters have used for the last several decades are going to work
+as well anymore; the ones that want to stay relevant are going to have
+to get increasingly clever — and careful — with their techniques.
 
 [^isolated]:
     Or it could be that Trump supporters are growing more isolated, 
