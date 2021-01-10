@@ -147,9 +147,12 @@ rates and turnout likelihood, and the ideas discussed so far are not
 so complicated or esoteric that it would be challenging for a pollster
 to implement them. From here, however, I'm flying pretty blind: I'm 
 going to suggest a couple of things that I think would be helpful,
-but they depend on details about how polls work that I do not
-know well. Furthermore, I have very little idea about how novel
-they are. For all I know they are already in common use.
+but they depend more on the detailed operation of individual 
+pollsters that aren't generally shared publicly. 
+Furthermore, I have very little idea about how novel
+they are — for all I know they are already in common use. 
+
+With those caveats out of the way, here they are:
 
 ### 1. Vary Survey Strategy
 If pollsters make multiple polls of the same race, then generally
