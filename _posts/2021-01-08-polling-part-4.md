@@ -9,7 +9,7 @@ preface_text: >-
   <a href="../../../2020/12/24/polling-part-0.html">here</a>.
   The code used to generate the charts in this post can be found
   <a href="https://github.com/AndrewRook/polling_simulator/blob/main/5_obfuscated_demographics.ipynb">here</a>
-  and <a href="https://github.com/AndrewRook/polling_simulator/blob/main/6_advanced_techniques.ipynb">here</a>
+  and <a href="https://github.com/AndrewRook/polling_simulator/blob/main/6_advanced_techniques.ipynb">here</a>.
 ---
 
 A big problem, possibly the biggest problem in political polling,
