@@ -216,8 +216,8 @@ The challenges with this idea are twofold:
 
 ### 3. Include Data About Contacting Respondents 
 If your poll attempts to contact respondents multiple times,
-the data just on how long it takes to get a response could be
-useful. If there is a relationship between candidate preference
+the data on how long it takes to get a response could be
+useful in and of itself. If there is a relationship between candidate preference
 and the number of contact attempts **within a demographic group**,
 then that indicates you probably can't extrapolate the voting
 preferences of your poll respondents to the broader population. 
