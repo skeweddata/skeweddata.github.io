@@ -1,6 +1,9 @@
 # Outputting
 permalink: /:categories/:year/:month/:day/:title.html
 
+plugins:
+  - jekyll-feed
+
 # Conversion
 markdown:         kramdown
 highlighter:      rouge
