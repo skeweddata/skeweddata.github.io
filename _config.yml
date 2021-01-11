@@ -53,6 +53,12 @@ defaults:
       layout: defaults/post
   -
     scope:
+      path: "_drafts"
+    values:
+      show_profile: false
+      layout: defaults/post
+  -
+    scope:
       path: "_portfolio"
     values:
       show_profile: false
