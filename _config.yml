@@ -10,7 +10,7 @@ highlighter:      rouge
 excerpt_separator: <!--more-->
 
 # Config for your profile.
-title:            Statistically Insignificant            # Site title
+title:            Skewed            # Site title
 name:             Andrew Schechtman-Rook            # Your name
 avatar:           /theme/img/avatar.png   # Path to an avatar image
 
