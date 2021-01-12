@@ -4,7 +4,7 @@ permalink: index.html
 narrow: true
 title: Hi There!
 ---
-This is my personal website and blog. All opinions in it are my
+Welcome to my blog! All opinions in it are my
 own[^opinions].  
 <br />
 
