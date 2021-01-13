@@ -2,7 +2,7 @@
     <div class="container">
         {% assign woo = site.subtitles|sample %}
         {% assign selected_subtitle = site.time %}
-        <a class="navbar-brand font-weight-bold" href="{{ site.baseurl }}{% link _pages/index.md %}">{{site.title}}: <span id="subtitle"></span></a>
+        <a class="navbar-brand font-weight-bold" href="{{ site.baseurl }}{% link _pages/index.md %}"><i>{{site.title}}</i>: <span id="subtitle"></span></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" >
             <span class="navbar-toggler-icon"></span>
         </button>

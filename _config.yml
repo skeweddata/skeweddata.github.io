@@ -10,7 +10,7 @@ highlighter:      rouge
 excerpt_separator: <!--more-->
 
 # Config for your profile.
-title:            <i>Skewed</i>            # Site title
+title:            Skewed            # Site title
 name:             Andrew Schechtman-Rook            # Your name
 avatar:           /theme/img/avatar.png   # Path to an avatar image
 
@@ -19,7 +19,7 @@ subtitles:
   - Taking a Walk on the Data Side
   - Because "Kurtosised" Sounded Dumb
   - Nerdy Rants for the Masses
-  - 
+  -
 
 
 # The theme uses the baseurl throughout, which is useful for running the entire
