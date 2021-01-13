@@ -14,6 +14,12 @@ title:            <i>Skewed</i>            # Site title
 name:             Andrew Schechtman-Rook            # Your name
 avatar:           /theme/img/avatar.png   # Path to an avatar image
 
+subtitles:
+  - Stupid Data Tricks
+  - Taking a Walk on the Data Side
+  - Because "Kurtosised" Sounded Dumb
+  
+
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.
 baseurl: ""
