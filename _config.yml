@@ -4,6 +4,9 @@ permalink: /:categories/:year/:month/:day/:title.html
 plugins:
   - jekyll-feed
 
+feed:
+  posts_limit: 5
+
 # Conversion
 markdown:         kramdown
 highlighter:      rouge
@@ -22,7 +25,6 @@ subtitles:
   - SELECT * FROM DATA
   - Your Brain, On Data
   - They don't do data analysis like they used to
-
 
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.
