@@ -1,2 +1,2 @@
-# AndrewRook.github.io
-Personal site
+# _Skewed_
+A blog about data, stats, and other fun things
