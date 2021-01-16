@@ -22,23 +22,14 @@ to strain the memory of a single machine, and I know _just_ enough
 distributed computing to get myself thoroughly into trouble.
 
 # `whatisthis`
-
-Sometimes, when the mood strikes me, I do side-projects. I
-find them useful both to learn new tools and also to keep my skills
-sharp, but really I do them because I get curious (or angry) about
-something and I can't really help myself from digging in.
-
-Usually these projects peter out fairly quickly without any concrete
-results: I realize they're much more complicated than I initially
-thought, I get distracted by some other shiny thing, or real life
-intervenes for long enough that when I have free time again I've lost
-interest. But sometimes I'm able to carry them forward for long enough
-to find out something that I think is neat, and it seemed sad not to
-be able to tell people about it[^football].
-
-So I slapped together this
-site to serve as a central clearinghouse for whatever I wanted to
-write about. I make no promises on when (or if) I'll post anything,
+Part location to share interesting analysis from 
+side-projects, part hub for any opinions I wish to share about
+the world, and part clearinghouse for rants on things 
+that annoy me, this blog is a centralized place for me to put my
+writing[^football]. Generally I'm interested in using data to learn
+new things, trying out new tools and techniques for analysis, and 
+looking skeptically at commonly accepted (or at least unquestioned)
+wisdom. I make no promises on when (or if) I'll post anything,
 but when I get the urge to share here's where it'll go. Enjoy!
 
 
