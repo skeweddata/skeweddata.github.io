@@ -71,8 +71,8 @@ player tracking data — the engineering challenges around working
 with larger datasets, the more advanced modeling techniques needed
 for such complex data — but that's not going to be sufficient. 
 
-Specifically, right
-now we have no guarantee that the stats we're seeing are accurate. Take the
+Specifically, with so little publicly available information about them, right
+now we have no guarantee that the Next Gen Stats we do manage to see are accurate. Take the
 [Next Gen Stats commercial starring running back Christian McCaffrey](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title).
 At one point the
 commercial shows McCaffrey looking at what appears to be a clear path to the end zone,
@@ -83,9 +83,10 @@ is only 14.2%:
 _Credit: [Amazon Web Services via YouTube](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title)_
 
 Maybe the model's right! The linebacker trying to chase him down might have a better angle than it looks
-like from this angle, or maybe there's 3 defenders bearing down on McCaffrey just off screen[^methodology]. But
-we have way too little information to tell. And until the NFL is willing to open up access to their data
-that's not going to change, and these stats will remain a niche side attraction.
+like in the commercial, or maybe there are 3 defenders bearing down on McCaffrey just off screen[^methodology]. But
+we have way too little information to tell, and until the NFL is willing to open up access to their data
+that's not going to change. Which is a shame, really, since these data have the potential to completely
+revolutionize the sport.
 
 
 [^2017]:
