@@ -62,8 +62,36 @@ to take a long time before everyone gets comfortable with it. I'm
 actually very impressed by the humility of the league, both in
 reaching out to AWS for help and putting up those Kaggle contests[^college].
 
-However, if they really want to see returns on what I assume must be a 
-multi-million dollar investment this isn't going to be enough. The
+## Black Boxes are Bad
+
+However, if the league really wants to see returns on what I assume must be a 
+multi-million dollar investment this isn't going to be enough. Partnering
+with AWS helps close some of the gaps inherent with
+player tracking data — the engineering challenges around working
+with larger datasets, the more advanced modeling techniques needed
+for such complex data — but that's not going to be sufficient. 
+Before these stats can become commonplace, the
+NFL will need to dramatically up its transparency across several dimensions:
+1. Player tracking data needs to be made publicly available.
+2. The methodology behind the Next Gen metrics must be documented — more than a [1-2 sentence
+   summary](https://nextgenstats.nfl.com/glossary).
+3. Outputs need to be accessible on a play-by-play level in a machine-readable format.
+4. Model outputs should be intuitively useful and correspond to real-world concepts.
+
+The first three items are necessary to allow for independent validation of the models — right
+now we not only have no guarantee that the stats we're seeing are accurate. Take the
+Next Gen Stats commercial starring running back Christian McCaffrey. At one point the
+commercial shows McCaffrey looking at what appears to be a clear path to the end zone,
+while at the same time an on-screen graphic indicates that the probability of scoring
+is only 14.2%:
+
+![McCaffrey screenshot](/images/nfl_stats_lies/mccaffrey.png)
+
+Maybe that's right! The linebacker trying to chase him down might have a better angle than it looks
+like from this angle, or maybe there's 3 defenders bearing down on McCaffrey just off screen[^methodology]. But
+we have way too little information to tell. 
+
+The
 player-tracking data is so rich that 
 a small team of stats majors manually generating analysis reports
 is woefully inadequate for the task. There are serious data pipelining
@@ -74,8 +102,6 @@ grammar about this data, both to enable analysts to be confident they're
 measuring the same things but also to help ground the public's understanding
 of new metrics and models that arise from these data.
 
-## Black Boxes are Bad
-Next Gen Stats 
 
 [^2017]:
     I'm guessing this conversation happened around this time, since 
@@ -122,3 +148,10 @@ Next Gen Stats
     Although using volunteer labor under the guise of educational
     pursuit and the possibility of a future large reward really
     seems more like a college football thing. 
+    
+[^methodology]:
+    There are also several higher-level questions that relate more to how the model was built. 
+    Does it consider the specific skills of McCaffrey, or is it the probability assigned to a
+    generic running back? Is the probability at that moment in time or at the start of the play?
+    Does it consider the positions of the players or also their speed and directions? Does it
+    take into account how well the Panthers have been running the ball so far in the game?
