@@ -79,28 +79,20 @@ NFL will need to dramatically up its transparency across several dimensions:
 4. Model outputs should be intuitively useful and correspond to real-world concepts.
 
 The first three items are necessary to allow for independent validation of the models — right
-now we not only have no guarantee that the stats we're seeing are accurate. Take the
-Next Gen Stats commercial starring running back Christian McCaffrey. At one point the
+now we have no guarantee that the stats we're seeing are accurate. Take the
+[Next Gen Stats commercial starring running back Christian McCaffrey](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title).
+At one point the
 commercial shows McCaffrey looking at what appears to be a clear path to the end zone,
 while at the same time an on-screen graphic indicates that the probability of scoring
 is only 14.2%:
 
-![McCaffrey screenshot](/images/nfl_stats_lies/mccaffrey.png)
+![McCaffrey screenshot](/images/nfl_stats_lies/mccaffrey.png){: width="100%"}
+_Credit: [Amazon Web Services via YouTube](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title)_
 
 Maybe that's right! The linebacker trying to chase him down might have a better angle than it looks
 like from this angle, or maybe there's 3 defenders bearing down on McCaffrey just off screen[^methodology]. But
 we have way too little information to tell. 
 
-The
-player-tracking data is so rich that 
-a small team of stats majors manually generating analysis reports
-is woefully inadequate for the task. There are serious data pipelining
-and automation challenges associated with player-tracking data, as
-well as the need for strong software engineering skills to parse
-and process the data. Not to mention the need to develop a shared
-grammar about this data, both to enable analysts to be confident they're
-measuring the same things but also to help ground the public's understanding
-of new metrics and models that arise from these data.
 
 
 [^2017]:
@@ -109,9 +101,8 @@ of new metrics and models that arise from these data.
     in 
     [the official Next Gen Stats timeline](https://operations.nfl.com/gameday/technology/nfl-next-gen-stats/).
 
-[^meetings]
-    For one, it probably involved _at least_ two meetings, if not
-    more than 10.
+[^meetings]:
+    For one, it probably involved at least _two_ meetings.
 
 [^analysts]:
     [The best estimate I could find](https://www.espn.com/nfl/story/_/id/29939438/2020-nfl-analytics-survey-which-teams-most-least-analytically-inclined)
