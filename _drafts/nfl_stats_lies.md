@@ -59,11 +59,10 @@ To be clear, I don't think this is particularly surprising: the
 player tracking data is a totally different world from the box
 score stats everyone is used to up to this point, and it's going
 to take a long time before everyone gets comfortable with it. I'm
-actually very impressed by the humility of the league's analytics
-department in putting up those Kaggle contests and explicitly
-admitting that they're not even sure what they're looking for yet[^college].
+actually very impressed by the humility of the league, both in
+reaching out to AWS for help and putting up those Kaggle contests[^college].
 
-But if they really want to see returns on what I assume must be a 
+However, if they really want to see returns on what I assume must be a 
 multi-million dollar investment this isn't going to be enough. The
 player-tracking data is so rich that 
 a small team of stats majors manually generating analysis reports
@@ -76,7 +75,7 @@ measuring the same things but also to help ground the public's understanding
 of new metrics and models that arise from these data.
 
 ## Black Boxes are Bad
-
+Next Gen Stats 
 
 [^2017]:
     I'm guessing this conversation happened around this time, since 
