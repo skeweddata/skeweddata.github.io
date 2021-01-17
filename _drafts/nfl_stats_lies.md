@@ -70,15 +70,8 @@ with AWS helps close some of the gaps inherent with
 player tracking data — the engineering challenges around working
 with larger datasets, the more advanced modeling techniques needed
 for such complex data — but that's not going to be sufficient. 
-Before these stats can become commonplace, the
-NFL will need to dramatically up its transparency across several dimensions:
-1. Player tracking data needs to be made publicly available.
-2. The methodology behind the Next Gen metrics must be documented — more than a [1-2 sentence
-   summary](https://nextgenstats.nfl.com/glossary).
-3. Outputs need to be accessible on a play-by-play level in a machine-readable format.
-4. Model outputs should be intuitively useful and correspond to real-world concepts.
 
-The first three items are necessary to allow for independent validation of the models — right
+Specifically, right
 now we have no guarantee that the stats we're seeing are accurate. Take the
 [Next Gen Stats commercial starring running back Christian McCaffrey](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title).
 At one point the
@@ -89,10 +82,10 @@ is only 14.2%:
 ![McCaffrey screenshot](/images/nfl_stats_lies/mccaffrey.png){: width="100%"}
 _Credit: [Amazon Web Services via YouTube](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title)_
 
-Maybe that's right! The linebacker trying to chase him down might have a better angle than it looks
+Maybe the model's right! The linebacker trying to chase him down might have a better angle than it looks
 like from this angle, or maybe there's 3 defenders bearing down on McCaffrey just off screen[^methodology]. But
-we have way too little information to tell. 
-
+we have way too little information to tell. And until the NFL is willing to open up access to their data
+that's not going to change, and these stats will remain a niche side attraction.
 
 
 [^2017]:
