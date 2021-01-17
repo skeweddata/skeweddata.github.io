@@ -38,19 +38,44 @@ to AWS wasn't made in this rash manner[^meetings]. I don't really
 think that the league considers statistics to be second-class
 citizens, or that analysts on most teams aren't managing to do
 **something** with the player-tracking data. But nonetheless it
-seems pretty clear that the NFL is almost totally clueless about what
+seems pretty obvious to me that the NFL is almost totally clueless about what
 to do with its investment:
 * Before its partnership with AWS, player-tracking stats were almost
   non-existent, except for the occasional trivialities like how fast
   a player was running.
 * Even today "Next Gen Stats" seems to be mostly commercials for AWS, a couple
   of overlays during the broadcasts, and a [website](https://nextgenstats.nfl.com/)
-  with a small number of highly aggregated stats with limited provenance[^download]
-* They've even admitted it with those Kaggle contests
-<br>
-<br>
-<br>
-<br>
+  with a small number of highly aggregated stats with limited provenance[^download].
+* The league has 
+  [started](https://www.kaggle.com/c/nfl-big-data-bowl-2020) 
+  [sponsoring](https://www.kaggle.com/c/nfl-impact-detection) 
+  [Kaggle](https://www.kaggle.com/c/nfl-playing-surface-analytics) 
+  competitions[^kaggle] in an effort to crowdsource useful player-tracking stats,
+  albeit with carefully
+  controlled samples of player-tracking data under restrictive terms[^terms].
+* Even ostensible partners like ESPN don't seem to have access to the raw data.
+
+To be clear, I don't think this is particularly surprising: the
+player tracking data is a totally different world from the box
+score stats everyone is used to up to this point, and it's going
+to take a long time before everyone gets comfortable with it. I'm
+actually very impressed by the humility of the league's analytics
+department in putting up those Kaggle contests and explicitly
+admitting that they're not even sure what they're looking for yet[^college].
+
+But if they really want to see returns on what I assume must be a 
+multi-million dollar investment this isn't going to be enough. The
+player-tracking data is so rich that 
+a small team of stats majors manually generating analysis reports
+is woefully inadequate for the task. There are serious data pipelining
+and automation challenges associated with player-tracking data, as
+well as the need for strong software engineering skills to parse
+and process the data. Not to mention the need to develop a shared
+grammar about this data, both to enable analysts to be confident they're
+measuring the same things but also to help ground the public's understanding
+of new metrics and models that arise from these data.
+
+## Black Boxes are Bad
 
 
 [^2017]:
@@ -74,3 +99,27 @@ to do with its investment:
 [^download]:
     Not to mention the fact that the stats can't be downloaded without
     scraping the site. Ugh.
+    
+[^kaggle]:
+    [Kaggle](https://www.kaggle.com/) is a website that hosts machine learning competitions,
+    Usually sponsored by companies who put up prizes for the best
+    models. If you remember the [Netflix Prize](https://en.wikipedia.org/wiki/Netflix_Prize)
+    contest from the late 2000s, it's challenges like that. Interestingly,
+    the NFL competitions work somewhat differently than a "normal"
+    Kaggle contest: rather than giving teams a specific objective
+    (e.g. "build a model to most accurately predict X outcome),
+    most of the NFL's competitions have open questions like 
+    ["Help evaluate defensive performance on passing plays"](https://www.kaggle.com/c/nfl-big-data-bowl-2021/overview).
+    
+[^terms]:
+    For example, the [most recent competition](https://www.kaggle.com/c/nfl-big-data-bowl-2021/rules)
+    explicitly that the data is only for "non-commercial purposes only, including for participating in 
+    the Competition and on Kaggle.com forums, and for academic research 
+    and education," and that you "agree not to transmit, duplicate, publish, 
+    redistribute or otherwise provide or make available the Competition Data 
+    to any party not participating in the Competition."
+    
+[^college]:
+    Although using volunteer labor under the guise of educational
+    pursuit and the possibility of a future large reward really
+    seems more like a college football thing. 
