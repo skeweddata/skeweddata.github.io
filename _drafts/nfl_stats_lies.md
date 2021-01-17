@@ -85,8 +85,7 @@ _Credit: [Amazon Web Services via YouTube](https://www.youtube.com/watch?v=bGqoS
 Maybe the model's right! The linebacker trying to chase him down might have a better angle than it looks
 like in the commercial, or maybe there are 3 defenders bearing down on McCaffrey just off screen[^methodology]. But
 we have way too little information to tell, and until the NFL is willing to open up access to their data
-that's not going to change. Which is a shame, really, since these data have the potential to completely
-revolutionize the sport.
+that's not going to change.
 
 
 [^2017]:
