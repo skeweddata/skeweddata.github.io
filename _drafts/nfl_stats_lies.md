@@ -81,7 +81,7 @@ commercial shows McCaffrey looking at what appears to be a clear path to the end
 while at the same time an on-screen graphic indicates that the probability of scoring
 is only 14.2%:
 
-![McCaffrey screenshot](/images/nfl_stats_lies/mccaffrey.png){: width="100%"}
+![McCaffrey screenshot]({{ "/images/nfl_stats_lies/mccaffrey.png" | absolute_url }}){: width="100%"}
 _Credit: [Amazon Web Services via YouTube](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title)_
 
 Maybe the model's right! The linebacker trying to chase him down might have a better angle than it looks

@@ -58,7 +58,7 @@ demographics — which skew heavily Democratic — naively polling any
 random thousand of them will make it look like a slam dunk victory for 
 the Democrat:
 
-![naive poll](/images/2021-01-03-polling-part-3/naive_poll.png)  
+![naive poll]({{ "/images/2021-01-03-polling-part-3/naive_poll.png" | absolute_url }})  
 
 You can see that not only does the Democrat have a clear lead 
 in the polls, but that lead is so large that not once in 500
@@ -72,7 +72,7 @@ responses ("absolutely certain", "not likely at all", etc) to
 probabilities. Then you can just weight each response by the 
 turnout probability, and then your poll will be properly calibrated:
 
-![turnout weighted poll](/images/2021-01-03-polling-part-3/turnout_weighted_poll.png)
+![turnout weighted poll]({{ "/images/2021-01-03-polling-part-3/turnout_weighted_poll.png" | absolute_url }})
 
 One of the really neat[^scary] things about turnout modeling is that you 
 can usually go back and check how good your model was. In many cases
@@ -111,13 +111,13 @@ potential voters are more likely to pick up the phone[^landlines].
 If you ignore demographics, your poll results will show an close race
 with the Republican candidate favored
 
-![naive poll](/images/2021-01-03-polling-part-3/naive_poll_response.png)
+![naive poll]({{ "/images/2021-01-03-polling-part-3/naive_poll_response.png" | absolute_url }})
 
 But, just like with the turnout example, this is wrong, although unlike
 in the turnout example here the Democrat runs away with the actual
 election:
 
-![actual election](/images/2021-01-03-polling-part-3/actual_election_response.png)
+![actual election]({{ "/images/2021-01-03-polling-part-3/actual_election_response.png" | absolute_url }})
 
 Unlike with turnout, response rates are slightly trickier to correct
 for — it's harder to adjust for _anything_ when the problem is 
@@ -139,7 +139,7 @@ Since this is a simulation, I know that I don't have to worry too much
 about sample size in my demographic groups. So using Option 1 is fine,
 and generates a much more accurate poll:
 
-![response weighted poll](/images/2021-01-03-polling-part-3/response_weighted_poll.png)
+![response weighted poll]({{ "/images/2021-01-03-polling-part-3/response_weighted_poll.png" | absolute_url }})
 
 You can see that the polls now correctly predicts both that the
 Democrat is likely to win, but also are centered around the actual
