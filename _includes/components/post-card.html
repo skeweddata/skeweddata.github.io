@@ -18,9 +18,19 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="card-text mb-0">
+        <div class="card-text mb-0 excerpt">
             {{ post.excerpt }}
         </div>
         <a href="{{ post.url | absolute_url }}">More...</a>
     </div>
 </div>
+
+<script>
+    jQuery(document).ready(function() {
+        $(".excerpt p").each(function () {
+            console.log($(this).text());
+            var replaced_text = $(this).text().replace("\[^2017\]", "");
+            console.log(replaced_text);
+        });
+    });
+</script>
