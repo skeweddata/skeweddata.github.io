@@ -12,7 +12,7 @@ preface_text: >-
 ---
 
 Previously in this series I 
-[discussed](../../../2020/12/28/polling-part-1.html) 
+[discussed]({{ "../../../2020/12/28/polling-part-1.html" | absolute_url }}) 
 the concept of statistical sampling, and how even the perfectly
 constructed poll will produce a distribution of possible results
 due to the random chance of who happens to respond. Those are
@@ -51,7 +51,7 @@ both candidate preference and turnout likelihood by age:
 Powered by the high turnout in the 65+ age group, these demographics result in 
 about a four point victory for the Republican candidate:
 
-![election results](/images/2021-01-03-polling-part-3/actual_election.png)
+![election results]({{ "/images/2021-01-03-polling-part-3/actual_election.png" | absolute_url }})
 
 But, because of how many more _potential_ voters are in the younger
 demographics — which skew heavily Democratic — naively polling any

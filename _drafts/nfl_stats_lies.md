@@ -15,6 +15,8 @@ their data. "Hey nerd!" I presume they opened, "Why the hell have we
 been paying all this money for the last three years for these stupid 
 RFID chips? Teams are barely using it!" 
 
+<!--more-->
+
 "True," the nervous middle manager, who'd only been given this job because
 they'd taken a stats class once in college, replied, "but most teams' analytics
 departments didn't even exist 5 years ago, and even now they barely 
