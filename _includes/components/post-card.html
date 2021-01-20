@@ -29,8 +29,8 @@
     jQuery(document).ready(function() {
         $(".excerpt p").each(function () {
             var regex = /\[\^[0-9A-Za-z]+\]/g;
-            var replaced_text = $(this).text().replace(regex, "");
-            $(this).text(replaced_text);
+            var replaced_html = $(this).html().replace(regex, "");
+            $(this).html(replaced_html);
         });
     });
 </script>
