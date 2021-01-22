@@ -25,6 +25,40 @@
     </div>
 </div>
 
+<script>
+    (function() {
+        // Consent already given
+        if (localStorage.getItem('consent') === 't')
+            return
+
+        // Don't do anyting on load.
+        window.goatcounter = {no_onload: true}
+
+        // Create a simple banner.
+        var agree = document.createElement('div');
+        agree.className = "navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom";
+        agree.innerHTML = `
+        <span class="navbar-text" style="color:rgba(255, 255, 255, 0.9); margin:auto; text-align:center">
+        This site collects anonymous pageview statistics to help me understand broad readership trends. Please click to agree.
+        </span>`;
+
+        // Send the event on click.
+        agree.addEventListener('click', function(e) {
+            e.preventDefault();
+            localStorage.setItem('consent', 't');
+            agree.parentNode.removeChild(agree);
+
+            window.goatcounter.count();       // Send pageview.
+            window.goatcounter.bind_events(); // If you use events.
+        })
+
+        document.body.appendChild(agree)
+    })()
+</script>
+<script data-goatcounter="https://rook166.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
 <script type="text/javascript">
 /*!
  * IE10 viewport hack for Surface/desktop Windows 8 bug
