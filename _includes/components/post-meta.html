@@ -15,12 +15,13 @@
                     </a>
                 {% endfor %}
             </div>
-            <div class="d-flex align-items-center mt-2">
+            <div class="d-flex align-items-center mt-2 mb-3">
                 <span class="icon grey mr-1">
                     {% include entypo/arrow-left.svg %}
                 </span>
                 <a href="{{ site.baseurl }}{% link list/posts.html %}">Back to all posts</a>
             </div>
+            {% include components/subscribe_card.html %}
         </div>
     </div>
 </div>
