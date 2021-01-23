@@ -74,7 +74,7 @@ featuring Panthers running back Christian McCaffrey](https://www.youtube.com/wat
 which includes a clip of him running towards an apparently open end zone while an
 on-screen graphic indicates his "Touchdown Probability" is only 14.2%:
 
-![McCaffrey screenshot]({{ "/images/nfl_stats_lies/mccaffrey.png" | absolute_url }}){: width="100%"}
+![McCaffrey screenshot]({{ "/images/nfl_stats_lies/mccaffrey.png" | absolute_url }}){: .img-fluid}
 _Credit: [Amazon Web Services via YouTube](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title)_
 
 "How could those odds be so low?" you may ask, or perhaps (for the more pedantic) you may wish to inquire
