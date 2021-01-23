@@ -2,6 +2,7 @@
 title:  Political Polling Part 0&#58; Introduction
 tags:
   - Polling
+  - Analysis
 ---
 
 In the aftermath of the 2020 U.S. elections, I was confused.

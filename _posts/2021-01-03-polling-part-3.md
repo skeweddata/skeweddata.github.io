@@ -2,6 +2,7 @@
 title:  Political Polling Part 3&#58; Turnout and Response Rate
 tags:
   - Polling
+  - Analysis
 preface_text: >-
   This post is part of a series on political polling. To start 
   at the beginning, click 
