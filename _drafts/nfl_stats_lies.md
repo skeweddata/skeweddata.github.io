@@ -1,8 +1,9 @@
 ---
 title:  Lies, Damn Lies, and NFL Next Gen Stats Powered by AWS
 tags:
-  - NFL
+  - Football
   - Transparency
+  - Rants
 ---
 
 I like to imagine that at some point in 2017[^2017] the NFL execs gathered
@@ -34,7 +35,7 @@ hearing about as part of the deal."
 
 And thus, NFL Next Gen Stats Powered by AWS was born.
 
-## The NFL Has No Idea What to do with Its Player-Tracking Data
+## The NFL Has No Idea What to do With Its Player-Tracking Data
 I'm sure the decision to outsource the NFL's player-tracking data
 to AWS wasn't made in this rash manner[^meetings]. I don't really
 think that the league considers statistics to be second-class
@@ -64,35 +65,66 @@ to take a long time before everyone gets comfortable with it. I'm
 actually very impressed by the humility of the league, both in
 reaching out to AWS for help and putting up those Kaggle contests[^college].
 
-## Black Boxes are Bad
+## Black Boxes Are Bad
 
-However, if the league really wants to see returns on what I assume must be a 
-multi-million dollar investment this isn't going to be enough. Partnering
-with AWS helps close some of the gaps inherent with
-player tracking data — the engineering challenges around working
-with larger datasets, the more advanced modeling techniques needed
-for such complex data — but that's not going to be sufficient. 
-
-Specifically, with so little publicly available information about them, right
-now we have no guarantee that the Next Gen Stats we do manage to see are accurate. Take the
-[Next Gen Stats commercial starring running back Christian McCaffrey](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title).
-At one point the
-commercial shows McCaffrey looking at what appears to be a clear path to the end zone,
-while at the same time an on-screen graphic indicates that the probability of scoring
-is only 14.2%:
+Those insipid Next Gen Stats ads have been all over NFL broadcasts this season.
+They're all pretty annoying to me, a blend of forced slang and
+random numbers recited at high velocity[^feet]. But for this post I'll focus on [one 
+featuring Panthers running back Christian McCaffrey](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title),
+which includes a clip of him running towards an apparently open end zone while an
+on-screen graphic indicates his "Touchdown Probability" is only 14.2%:
 
 ![McCaffrey screenshot]({{ "/images/nfl_stats_lies/mccaffrey.png" | absolute_url }}){: width="100%"}
 _Credit: [Amazon Web Services via YouTube](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title)_
 
-Maybe the model's right! The linebacker trying to chase him down might have a better angle than it looks
-like in the commercial, or maybe there are 3 defenders bearing down on McCaffrey just off screen[^methodology]. But
-we have way too little information to tell, and until the NFL is willing to open up access to their data
-that's not going to change.
+"How could those odds be so low?" you may ask, or perhaps (for the more pedantic) you may wish to inquire
+whether is really accurate to that extra 0.2% level. Well, here's an explanation: The odds are low
+because they were made up by the AWS and/or NFL marketing departments, and they threw in the extra decimal
+place because it makes the stat sound more authoritative. To make it a little more legit they confirmed with a
+couple of co-workers that the number seemed about right, ballpark, should be fine.
+
+This is probably — almost certainly — not what happened! There is, most likely, an actual honest-to-goodness
+machine learning model making these predictions. There's a decent chance it was properly built and tested[^methodology]. 
+There could be more information that the model has access to that, were we to have it too, would make the prediction 
+seem more reasonable — the linebacker trying to chase McCaffrey down might have a 
+better angle than it looks like in the commercial, or maybe there are 3 defenders bearing down on
+him from just off screen. 
+
+But you can't prove that! There's no published information (that I'm aware of) on the existence or methodology of
+a Next Gen Stats touchdown probability model. The input player tracking data aren't available, so you 
+can't even build your own model to check to see if you also get something close to 14% probability for this play.
+Again, I don't actually believe the NFL is faking these stats, don't take the 
+preceding paragraph literally, yadda yadda I don't want to be sued yadda yadda. My point, however, is that 
+given the information available the two scenarios are functionally indistinguishable. 
+
+
+## You Can't Protect Your Valuable Data IP and Advertise It Too 
+Look, if the NFL wants to keep its player-tracking data private for whatever reason, it's totally
+their right to do so. Even if it stunts the development of transformational statistics
+that will both improve teams' ability to evaluate players and strategize for game day as well
+as give viewers new and exciting ways to understand the game, as I believe that decision does, it's
+their data and therefore their call.
+
+But you can't then throw out random nuggets from those stats and expect much in the way
+of returns on that investment. I mean, it's cool I guess that DK Metcalf 
+[can reach speeds of 22 miles per hour](https://twitter.com/NextGenStats/status/1320537210475683840), 
+but it's
+plainly obvious that he is absolutely hauling ass if you just, like, 
+[watch the replay yourself](https://www.youtube.com/watch?v=dKTorclPR40). Similarly, does a fan _really_ gain
+that much from knowing that [some defensive coaches like to line up their players to look like smiley faces while
+others prefer sad faces](https://twitter.com/NextGenStats/status/1351995519405596679)?
+
+I believe that there's a world out there where regular fans talk coherently about "advanced" stats
+like Completion Percentage Above Expectation and Wide Receiver Average Separation, a world where 
+everyone's understanding of the game — fans, coaches, players, and executives — is deeper and more
+nuanced. Unfortunately, I don't think you get there by jealously guarding your data, doling it out in
+rare, small doses in the hopes that people won't think to ask any deeper questions about what it means
+or where it comes from.  
 
 
 [^2017]:
     I'm guessing this conversation happened around this time, since 
-    this is the first year either AWS or machine-learning are mentioned
+    this is the first year either AWS or machine learning are mentioned
     in 
     [the official Next Gen Stats timeline](https://operations.nfl.com/gameday/technology/nfl-next-gen-stats/).
 
@@ -101,7 +133,7 @@ that's not going to change.
 
 [^analysts]:
     [The best estimate I could find](https://www.espn.com/nfl/story/_/id/29939438/2020-nfl-analytics-survey-which-teams-most-least-analytically-inclined)
-    indicates that there are ~3 analysts per team, which in my experience
+    indicates that there are ~3 analysts per team, which in my personal experience
     is the bare minimum to turn around simple ad hoc analyses and maintain 1-2
     ongoing projects. And that's assuming there's at least _some_ infrastructure
     support around them so they don't have to do things like manage their
@@ -109,13 +141,13 @@ that's not going to change.
     
 [^download]:
     Not to mention the fact that the stats can't be downloaded without
-    scraping the site. Ugh.
+    scraping the site, [which people have actually resorted to](https://arxiv.org/abs/1906.03339)!  
     
 [^kaggle]:
     [Kaggle](https://www.kaggle.com/) is a website that hosts machine learning competitions,
     Usually sponsored by companies who put up prizes for the best
     models. If you remember the [Netflix Prize](https://en.wikipedia.org/wiki/Netflix_Prize)
-    contest from the late 2000s, it's challenges like that. Interestingly,
+    contest from the late 2000s, it's mostly challenges like that. Interestingly,
     the NFL competitions work somewhat differently than a "normal"
     Kaggle contest: rather than giving teams a specific objective
     (e.g. "build a model to most accurately predict X outcome),
@@ -135,9 +167,10 @@ that's not going to change.
     pursuit and the possibility of a future large reward really
     seems more like a college football thing. 
     
+[^feet]:
+    Also an odd digression about feet, [courtesy of Deshaun Watson](https://www.youtube.com/watch?v=Ayk3zTrs58A).
+
 [^methodology]:
-    There are also several higher-level questions that relate more to how the model was built. 
-    Does it consider the specific skills of McCaffrey, or is it the probability assigned to a
-    generic running back? Is the probability at that moment in time or at the start of the play?
-    Does it consider the positions of the players or also their speed and directions? Does it
-    take into account how well the Panthers have been running the ball so far in the game?
+    Not only do you have to make sure that you have a proper testing set to validate that the model outputs correct
+    probabilities overall, but you'd really want to also check that the model works well for the particular set of
+    inputs (down, distance, player locations, etc) used in the commercial.
