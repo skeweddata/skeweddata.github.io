@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: test
+title: wooo
 ---
 # Hi There!
 ---
