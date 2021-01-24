@@ -6,7 +6,7 @@
     <meta name="author" content="">
 
     <title>
-        {% if page.title %}
+        {% if page.title != "Hi There!" and page.title %}
             {{ page.title }} &middot; {{ site.title }}
         {% else %}
             {{ site.title }}
