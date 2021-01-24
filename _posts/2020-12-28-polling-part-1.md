@@ -36,12 +36,18 @@ a _slight_ preference for a Democratic candidate over a Republican,
 70% chance of actually voting in the election. 500 simulations of
 an election with these parameters look like this:
 
-![election_results]({{ "/images/2020-12-28-polling-part-1/election_results.png" | absolute_url }}){: .img-fluid}
+{% include components/post_image.html 
+    src="/images/2020-12-28-polling-part-1/election_results.png"
+    alt="Election results"
+%}
 
 Zooming in just to the region around the simulation results shows
 that there is actually a distribution of outcomes:
 
-![election_results_zoomed]({{ "/images/2020-12-28-polling-part-1/election_results_zoomed.png" | absolute_url }}){: .img-fluid}
+{% include components/post_image.html 
+    src="/images/2020-12-28-polling-part-1/election_results_zoomed.png"
+    alt="Election results zoomed"
+%}
 
 The vote margin varies due to sampling randomness, as in each simulation — like in reality — every
 voter has a less than 100% chance of actually voting. But with a million potential voters
@@ -73,7 +79,10 @@ picture of the race. For example, if instead of looking at only five
 polls we look at 500, it becomes totally clear that the race is
 essentially a tossup:
 
-![poll_results]({{ "/images/2020-12-28-polling-part-1/poll_results.png" | absolute_url }}){: .img-fluid}
+{% include components/post_image.html 
+    src="/images/2020-12-28-polling-part-1/poll_results.png"
+    alt="Poll results"
+%}
 
 The silver lining about sampling uncertainty is that it's well
 understood for statistical problems like political polling, and

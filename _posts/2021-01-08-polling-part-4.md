@@ -120,7 +120,10 @@ constant makes the problem simpler to understand.
 These demographics result in a small victory for the Republican
 candidate:
 
-![election results]({{ "/images/2021-01-08-polling-part-4/election_results.png" | absolute_url }}){: .img-fluid}
+{% include components/post_image.html 
+    src="/images/2021-01-08-polling-part-4/election_results.png"
+    alt="Election results"
+%}
 
 But, unlike in [past]({{ "../../../2020/12/28/polling-part-1.html" | absolute_url }}) 
 [posts]({{ "../../../2021/01/03/polling-part-3.html" | absolute_url }}), 
@@ -131,7 +134,10 @@ promised, even after doing the demographic weighting discussed
 [in the last post]({{ "../../../2021/01/03/polling-part-3.html" | absolute_url }}) the
 results are still seriously off:
 
-![poll with incorrect demographics]({{ "/images/2021-01-08-polling-part-4/poll_assumed_demographic.png" | absolute_url }}){: .img-fluid}
+{% include components/post_image.html 
+    src="/images/2021-01-08-polling-part-4/poll_assumed_demographic.png"
+    alt="Poll with incorrect demographics"
+%}
 
 This poll overstates the Democratic vote-share by close to 10 points,
 and is so far off that if a campaign or PAC were to treat these results
@@ -224,7 +230,11 @@ preferences of your poll respondents to the broader population.
 Here's what that looks like in my simulations, looking at just
 the 30-50 year old age group when using 5 contact attempts:
 
-![Voter preference by number of contact attempts]({{ "/images/2021-01-08-polling-part-4/preference_by_contacts.png" | absolute_url }}){: .img-fluid}
+{% include components/post_image.html 
+    src="/images/2021-01-08-polling-part-4/preference_by_contacts.png"
+    alt="Voter preference by number of contact attempts"
+%}
+
 
 You can see how the candidate preference shifts from Democrat to
 Republican as you go from one to five contact attempts. 

@@ -1,0 +1,6 @@
+<p>
+    <img src="{{ include.src | absolute_url}}" alt="{{ include.alt}}" style="width: 100%; height: auto">
+    {% if include.credit %}
+        <em><span style="font-size: 11px">Credit: {{ include.credit }}</span></em>
+    {% endif %}
+</p>
