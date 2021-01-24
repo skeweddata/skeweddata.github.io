@@ -46,6 +46,8 @@ to do with its investment:
 * Before its partnership with AWS, player-tracking stats were almost
   non-existent, except for the occasional trivialities like how fast
   a player was running.
+* Ostensible partners like ESPN don't seem to have access to the raw data, or if
+  they do they aren't basing much reporting and analysis on them.
 * Even today "Next Gen Stats" seems to be mostly commercials for AWS, a couple
   of overlays during the broadcasts, and a [website](https://nextgenstats.nfl.com/)
   with a small number of highly aggregated stats with limited provenance[^download].
@@ -55,8 +57,7 @@ to do with its investment:
   [Kaggle](https://www.kaggle.com/c/nfl-playing-surface-analytics) 
   competitions[^kaggle] in an effort to crowdsource useful player-tracking stats,
   albeit with carefully
-  controlled samples of player-tracking data under restrictive terms[^terms].
-* Even ostensible partners like ESPN don't seem to have access to the raw data.
+  controlled samples of data under restrictive terms[^terms].
 
 To be clear, I don't think this is particularly surprising: the
 player tracking data is a totally different world from the box
@@ -64,11 +65,13 @@ score stats everyone is used to up to this point, and it's going
 to take a long time before everyone gets comfortable with it. I'm
 actually very impressed by the humility of the league, both in
 reaching out to AWS for help and putting up those Kaggle contests[^college].
+But I don't think these approaches are the best way for the NFL to go about remedying
+these issues. 
 
 ## Black Boxes Are Bad
 
-Those insipid Next Gen Stats ads have been all over NFL broadcasts this season.
-They're all pretty annoying to me, a blend of forced slang and
+Those Next Gen Stats ads have been all over NFL broadcasts this season.
+I find them all pretty irritating, a blend of forced slang and
 random numbers recited at high velocity[^feet]. But for this post I'll focus on [one 
 featuring Panthers running back Christian McCaffrey](https://www.youtube.com/watch?v=bGqoSBSh1hA&feature=emb_title),
 which includes a clip of him running towards an apparently open end zone while an
@@ -102,7 +105,7 @@ given the information available the two scenarios are functionally indistinguish
 Look, if the NFL wants to keep its player-tracking data private for whatever reason, it's totally
 their right to do so. Even if it stunts the development of transformational statistics
 that will both improve teams' ability to evaluate players and strategize for game day as well
-as give viewers new and exciting ways to understand the game, as I believe that decision does, it's
+as give viewers new and exciting ways to understand the game, it's
 their data and therefore their call.
 
 But you can't then throw out random nuggets from those stats and expect much in the way
