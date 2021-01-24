@@ -2,7 +2,8 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Hi There!
+---
+# Hi There!
 ---
 Welcome to _Skewed_, a blog about data, statistics, and not taking things
 at face value. All opinions in it are my
