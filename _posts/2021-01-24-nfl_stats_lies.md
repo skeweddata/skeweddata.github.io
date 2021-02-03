@@ -47,7 +47,10 @@ to do with its investment:
   non-existent, except for the occasional trivialities like how fast
   a player was running.
 * Ostensible partners like ESPN don't seem to have access to the raw data, or if
-  they do they aren't basing much reporting and analysis on them.
+  they do they aren't basing much reporting and analysis on them. _(edit 2/2/2021: not as sure about
+  this one any more, at the very least they seem to be 
+  [tweeting](https://twitter.com/SethWalder/status/1353502984320274433) some neat player tracking
+  graphics.)_
 * Even today "Next Gen Stats" seems to be mostly commercials for AWS, a couple
   of overlays during the broadcasts, and a [website](https://nextgenstats.nfl.com/)
   with a small number of highly aggregated stats with limited provenance[^download].
