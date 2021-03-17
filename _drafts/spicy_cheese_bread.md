@@ -1,14 +1,37 @@
 ---
-title:  Spicy Cheese Bread&#58; Something Special From Wisconsin
+title:  Spicy Cheese Bread&#58; The Best Baked Good in Wisconsin
 tags:
   - Food
   - Analysis
   - Rants
 ---
-
+Wisconsin: land of [beer](https://newglarusbrewing.com/), 
+[bratwurst](https://statestreetbrats.com/), and 
+[cheddar cheese](http://hookscheese.com/). I ate copious amounts
+of all three during my time as a grad student at UW-Madison, but none
+is the food that I miss the most. That honor is reserved for spicy
+cheese bread. 
 
 <!--more-->
+Specifically, [Stella's spicy cheese bread](https://stellasofmadison.com/), 
+a staple food of any trip to the 
+[Dane County Farmers' Market](https://dcfm.org/)[^dcfm]. Summers in 
+Wisconsin are gorgeous, and the market is a must-do destination every
+week when the weather is nice. 
 
+We'd walk the mile or so from our house
+to the Capital and enter the market across from State Street. This
+is just downstream of Stella's — foot traffic in the market is
+strictly one-way[^counterclockwise] — and I'm not too proud to admit
+that we would cut against the flow for the 10 feet or so necessary to get to
+the side of the bakery's booth which was dispensing the bread, then waiting
+in the informal queue of customers before handing over the cash for our 
+fresh-from-the-oven prize. 
+
+And what a prize it was! Over a pound of a sweet, tender, yeasty bread spotted with
+mildly spicy red pepper flakes, stuffed with just so much gooey, melty cheese.
+We'd join the regular flow of the market, bread in hand, ripping off chunks and
+stuffing our faces while browsing the other stalls of the market. 
 
 ## The Recipe
 
@@ -25,7 +48,7 @@ tags:
 * 1 teaspoon dried parsley
 * 1 teaspoon dried chives
 * 1/2 teaspoon red pepper flakes
-* 75 grams provolone
+* 75 grams mild provolone
 * 75 grams monterey jack
 
 **Topping**
@@ -48,8 +71,8 @@ tags:
 to ~100 degrees F, then dissolve the yeast in the water for 5 minutes.
 * You may want to adjust the amount of red pepper flakes depending on
 your spice tolerance and the particular brand of pepper flakes you have.
-* The provolone should **not** be smoked. It may be difficult to find a
-block of provolone that isn't smoked, in which case you can use
+* The provolone should **not** be smoked or sharp. It may be difficult to find a
+block of provolone that isn't smoked/sharp, in which case you can use
 pre-sliced bagged provolone.
 
 ### Instructions
@@ -94,3 +117,13 @@ the sheet and pan to the oven without the pot, then bake for an additional 10-15
 minutes, until the crust is browned and/or you can't resist the delicious smell anymore.
 1. Remove pan from oven and let bread cool for at least 10 minutes before eating.
 Optionally, remove bread from pan and place on a cooling rack to speed up the process.
+
+
+[^dcfm]:
+   Almost certainly the largest farmers' market in the entire country,
+   every Saturday in the Summer the Dane County Farmers' Market runs for four 
+   solid city blocks and wraps
+   entirely around the Wisconsin Capital Building. 
+   
+[^counterclockwise]:
+   Counterclockwise.
