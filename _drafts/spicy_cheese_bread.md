@@ -3,11 +3,10 @@ title:  Spicy Cheese Bread&#58; The Best Baked Good in Wisconsin
 tags:
   - Food
   - Analysis
-  - Rants
 ---
 Wisconsin: land of [beer](https://newglarusbrewing.com/), 
 [bratwurst](https://statestreetbrats.com/), and 
-[cheddar cheese](http://hookscheese.com/). I ate copious amounts
+[cheddar cheese](http://hookscheese.com/). I consumed copious amounts
 of all three during my time as a grad student at UW-Madison, but none
 is the food that I miss the most. That honor is reserved for spicy
 cheese bread. 
@@ -120,10 +119,10 @@ Optionally, remove bread from pan and place on a cooling rack to speed up the pr
 
 
 [^dcfm]:
-   Almost certainly the largest farmers' market in the entire country,
-   every Saturday in the Summer the Dane County Farmers' Market runs for four 
-   solid city blocks and wraps
-   entirely around the Wisconsin Capital Building. 
+    Almost certainly the largest farmers' market in the entire country,
+    every Saturday in the Summer the Dane County Farmers' Market runs for four 
+    solid city blocks and wraps
+    entirely around the Wisconsin Capital Building. 
    
 [^counterclockwise]:
-   Counterclockwise.
+    Counterclockwise.
