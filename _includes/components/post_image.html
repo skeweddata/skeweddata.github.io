@@ -1,6 +1,14 @@
 <p>
-    <img src="{{ include.src | absolute_url}}" alt="{{ include.alt}}" style="width: 100%; height: auto">
-    {% if include.credit %}
-        <em><span style="font-size: 11px">Credit: {{ include.credit }}</span></em>
-    {% endif %}
+    <div style="width: 100%;text-align: center">
+        <img src="{{ include.src | absolute_url}}" alt="{{ include.alt}}" style="width: 100%; height: auto">
+        {% if include.caption %}
+            <span style="font-size: 12px">{{ include.caption }}</span>
+        {% endif %}
+        {% if include.credit %}
+            {% if include.caption %}
+                <br>
+            {% endif %}
+            <em><span style="font-size: 11px">Credit: {{ include.credit }}</span></em>
+        {% endif %}
+    </div>
 </p>

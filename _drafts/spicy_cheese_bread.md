@@ -3,6 +3,8 @@ title:  Spicy Cheese Bread&#58; The Best Baked Good in Wisconsin
 tags:
   - Food
   - Analysis
+preface_text: >-
+  <a href="#the-recipe">(Jump straight to the recipe)</a>
 ---
 Wisconsin: land of [beer](https://newglarusbrewing.com/), 
 [bratwurst](https://statestreetbrats.com/), and 
@@ -12,11 +14,21 @@ is the food that I miss the most. That honor is reserved for spicy
 cheese bread. 
 
 <!--more-->
+
+## Hot and Spicy
+
 Specifically, [Stella's spicy cheese bread](https://stellasofmadison.com/), 
 a staple food of any trip to the 
 [Dane County Farmers' Market](https://dcfm.org/)[^dcfm]. Summers in 
 Wisconsin are gorgeous, and the market is a must-do destination every
 week when the weather is nice. 
+
+{% include components/post_image.html 
+    src="/images/cheese_bread/stellas_stall.jpg" 
+    alt="Stella's Farmer Market Stand"
+    caption="The Stella's stand at the Dane County Farmer's market. It will have that big of a crowd around it (if not larger) for the duration of the market."
+    credit="<a href='https://www.flickr.com/photos/afagen/8062497693/'>Adam Fagan via Flickr</a> (<a href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>CC BY-NC-SA 2.0</a>)"
+%}
 
 We'd walk the mile or so from our house
 to the Capital and enter the market across from State Street. This
@@ -31,6 +43,42 @@ And what a prize it was! Over a pound of a sweet, tender, yeasty bread spotted w
 mildly spicy red pepper flakes, stuffed with just so much gooey, melty cheese.
 We'd join the regular flow of the market, bread in hand, ripping off chunks and
 stuffing our faces while browsing the other stalls of the market. 
+
+We moved from Madison over six years ago now, and ever since I've been 
+trying to fill a spicy-cheese-bread-sized hole in my life. 
+
+## Reverse Engineering
+
+At first I thought getting another hit of that cheesy goodness would be as
+simple as Googling "Spicy Cheese Bread recipe" and following along.
+"Surely someone's done this already", I figured, and [indeed there are many
+hits](https://web.archive.org/web/20210403141811/https://www.google.com/search?hl=en&q=spicy+cheese+bread+recipe).
+But as I discovered after attempting several of the most promising ones with
+decidedly mixed results, none of them properly reproduced the elusive combination
+of taste and texture of authentic Stella's. If I wanted to make authentic 
+Spicy Cheese Bread at home I would have to figure it out myself.
+
+{% include components/post_image.html 
+    src="/images/cheese_bread/lab_notes.png" 
+    alt="Experiment Log"
+    caption="An excerpt of my experimental notebook/window into my madness. Because of a combination of competing demands on my time and my family's limited
+tolerance for mediocre cheese bread I could only experiment every once in a while, so writing down what I had done and what the results were was critical. "
+%}
+
+Using the internet recipes as a jumping off point, I started making test loaves, 
+tweaking the ingredients based on my understanding of breadmaking and a hearty
+dose of intuition. The first several attempts did not go well — I'm not a
+professional recipe developer by any stretch[^developer] — and it wasn't until
+I finally got my hands on a loaf of Stella's[^mailorder] that I started to make progress.
+
+It turns out that Stella's Spicy Cheese Bread conforms to FDA food labeling rules,
+which require food producers to list both the ingredients by weight as well as the 
+total weight of the food[^exempt]. Additionally, the Spicy Cheese Bread bag loudly
+claimed that each loaf contained a quarter pound of cheese. Combining these weights
+with my general understanding of breadmaking put me on the right track, and a 
+few iterations later I had a loaf that we agreed was functionally equivalent to the
+authentic item — and a recipe too good not to share!
+
 
 ## The Recipe
 
@@ -69,10 +117,12 @@ stuffing our faces while browsing the other stalls of the market.
 * If you only have active dry yeast, use the same amount but first warm up some of the water
 to ~100 degrees F, then dissolve the yeast in the water for 5 minutes.
 * You may want to adjust the amount of red pepper flakes depending on
-your spice tolerance and the particular brand of pepper flakes you have.
+your spice tolerance and the particular brand of pepper flakes you have. My kids refused to 
+eat the bread if it had _any_ pepper flakes on it, so I usually omit them entirely.
 * The provolone should **not** be smoked or sharp. It may be difficult to find a
 block of provolone that isn't smoked/sharp, in which case you can use
-pre-sliced bagged provolone.
+pre-sliced bagged provolone — just make sure the ingredients list is just the cheese and doesn't
+have any added ingredients like starch.
 
 ### Instructions
 1. Put all of the dough ingredients except for the cheeses in the bowl of a stand mixer. 
@@ -126,3 +176,17 @@ Optionally, remove bread from pan and place on a cooling rack to speed up the pr
    
 [^counterclockwise]:
     Counterclockwise.
+
+[^developer]:
+    Although I have a much greater appreciation for them after going through
+    this exercise!
+    
+[^mailorder]:
+    It turns out that Stella's Spicy Cheese Bread is so popular they actually
+    have the infrastructure set up to [mail them to you](https://www.stellasbakery.store/).
+    While by far the best when fresh from the oven, the mail-order loaves I got
+    held up surprisingly well.
+    
+[^exempt]:
+    I'm not a food labeling expert, but I believe the fact that they **do** put the ingredients on the
+    package implies that [they are shifting quite a lot of product](https://www.fda.gov/food/labeling-nutrition-guidance-documents-regulatory-information/small-business-nutrition-labeling-exemption).
