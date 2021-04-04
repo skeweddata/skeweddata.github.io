@@ -76,8 +76,15 @@ which require food producers to list both the ingredients by weight as well as t
 total weight of the food[^exempt]. Additionally, the Spicy Cheese Bread bag loudly
 claimed that each loaf contained a quarter pound of cheese. Combining these weights
 with my general understanding of breadmaking put me on the right track, and a 
-few iterations later I had a loaf that we agreed was functionally equivalent to the
-authentic item — and a recipe too good not to share!
+few iterations later I had a loaf that I was happy with.
+
+I should be clear: this recipe is not as good as the real thing — Stella's has over three
+decades of baking experience, and access to professional equipment that I don't. If you
+live within driving distance of the Dane County Farmer's Market you should absolutely
+go there to get your cheese bread fix! But if you're a Wisconsin expat, a tourist who stopped
+by the Market one Saturday and got hooked, or just someone who thinks a combination of cheese,
+bread, and spice sounds like a match made in heaven, I think this recipe is the very best
+substitute possible. Try it and see!
 
 
 ## The Recipe
@@ -146,8 +153,22 @@ hook without breaking. It may be very sticky: that's fine for right now.
 
 {:start="3"}
 1. Remove the bowl from the stand mixer and cover with plastic wrap.
-Let rise in a warm place for about 45-70 minutes, until a little less than doubled in volume. 
+Let rise in a warm place for about 45-70 minutes, until about doubled in volume. 
 Check after an hour or so; rise times can be variable.
+<div class="container-fluid"><div class="row no-gutters">
+{% include components/post_image.html 
+    src="/images/cheese_bread/ready_to_rise.jpg" 
+    alt="Ready to Rise"
+    class="col-6"
+%}
+{% include components/post_image.html 
+    src="/images/cheese_bread/risen_dough.jpg" 
+    alt="Risen Dough"
+    class="col-6"
+%}
+</div></div>
+
+{:start="4"}
 1. While the dough is rising, take both cheeses out of the fridge and cut
 into roughly 1/2-inch cubes (if provolone is pre-sliced, cut into 1/2-inch slices).
 Leave cheese out on counter to come to room temperature (cold cheese can slow down
@@ -159,6 +180,20 @@ until it becomes possible to handle it.
 1. Roll out the dough into about a 15"x12" rectangle. Scatter the cheese over the 
 entire area of the dough save for about 1/2-inch on all sides. Roll dough up along
 the short axis to make a log and pinch ends to seal.
+<div class="container-fluid"><div class="row no-gutters">
+{% include components/post_image.html 
+    src="/images/cheese_bread/flat_dough.jpg" 
+    alt="Flat Dough"
+    class="col-6"
+%}
+{% include components/post_image.html 
+    src="/images/cheese_bread/dough_log.jpg" 
+    alt="Dough Log"
+    class="col-6"
+%}
+</div></div>
+
+{:start="7"}
 1. Turn log seam-side down, then roll it out with your hands until it is about
 25" long — long enough for you to tie the dough into a loose knot by looping
 one end under the other and pulling up through the middle, which you should do next.
@@ -166,28 +201,75 @@ one end under the other and pulling up through the middle, which you should do n
 let rise in a warm place for another 45-70 minutes. Dough may not quite double
 in bulk but should at least be noticeably bigger than before, and feel softer
 to the touch than it was right after it was knotted.
+<div class="container-fluid"><div class="row no-gutters">
+{% include components/post_image.html 
+    src="/images/cheese_bread/knotted_dough.jpg" 
+    alt="Knotted Dough"
+    class="col-6"
+%}
+{% include components/post_image.html 
+    src="/images/cheese_bread/post_second_rise.jpg" 
+    alt="Post-Second Rise"
+    class="col-6"
+%}
+</div></div>
+
+{:start="9"}
 1. While dough is rising, move the oven racks to a low enough position to comfortably 
 fit the pot, place the pot in the oven, and preheat the oven to 400 degrees F.
 1. When dough has risen, place cake pan with dough on the baking sheet,
 remove the pot from the oven, then place the pot upside-down over the cake pan
 and on the baking sheet. Put sheet-pan-pot assemblage into the oven and bake
 for 20 minutes. 
+<div class="container-fluid"><div class="row no-gutters">
+{% include components/post_image.html 
+    src="/images/cheese_bread/first_trip_in_oven.jpg" 
+    alt="First Trip in Oven"
+%}
+</div></div>
+
+{:start="11"}
 1. While the dough bakes, make the egg wash by scrambling the egg inside
 a small container, then mixing in the water. Get out the red pepper flakes and
 set aside.
 1. Remove sheet-pan-pot assemblage from the oven, take off pot, then brush
 the egg wash on the dough and then sprinkle with the red pepper flakes. Return
-the sheet and pan to the oven without the pot, then bake for an additional 10-15
-minutes, until the crust is browned and/or you can't resist the delicious smell anymore.
-1. Remove pan from oven and let bread cool for at least 10 minutes before eating.
-Optionally, remove bread from pan and place on a cooling rack to speed up the process.
+the sheet and pan to the oven **without the pot**. 
+<div class="container-fluid"><div class="row no-gutters">
+{% include components/post_image.html 
+    src="/images/cheese_bread/wash_ingredients.jpg" 
+    alt="Wash Ingredients"
+    class="col-6"
+%}
+{% include components/post_image.html 
+    src="/images/cheese_bread/washed_dough.jpg" 
+    alt="Washed Dough"
+    class="col-6"
+%}
+</div></div>
 
+{:start="13"}
+1. Bake for an additional 10-15 minutes, until the crust is browned and/or you can't 
+resist the delicious smell anymore. Remove pan from oven and let bread cool for at least 10 minutes before digging in.
+Optionally, remove bread from pan and place on a cooling rack to speed up the process.
+<div class="container-fluid"><div class="row no-gutters">
+{% include components/post_image.html 
+    src="/images/cheese_bread/finished_bread.jpg" 
+    alt="Finished Bread"
+    class="col-6"
+%}
+{% include components/post_image.html 
+    src="/images/cheese_bread/bread_inside.jpg" 
+    alt="Bread Inside"
+    class="col-6"
+%}
+</div></div>
 
 [^dcfm]:
     Almost certainly the largest farmers' market in the entire country,
     every Saturday in the summer the Dane County Farmers' Market runs for four 
     solid city blocks and wraps
-    entirely around the Wisconsin Capital Building. 
+    entirely around the Wisconsin Capital Building. It's great!
    
 [^counterclockwise]:
     Counterclockwise.
@@ -204,4 +286,4 @@ Optionally, remove bread from pan and place on a cooling rack to speed up the pr
     
 [^exempt]:
     I'm not a food labeling expert, but I believe the fact that they **do** put the ingredients on the
-    package implies that [they are shifting quite a lot of product](https://www.fda.gov/food/labeling-nutrition-guidance-documents-regulatory-information/small-business-nutrition-labeling-exemption).
+    package implies that they are (unsurprisingly) [shifting quite a lot of product](https://www.fda.gov/food/labeling-nutrition-guidance-documents-regulatory-information/small-business-nutrition-labeling-exemption).
