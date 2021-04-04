@@ -1,5 +1,5 @@
 <p>
-    <div style="width: 100%;text-align: center">
+    <div {% if include.class %} class="{{ include.class }}" {% endif %}style="width: 100%;text-align: center">
         <img src="{{ include.src | absolute_url}}" alt="{{ include.alt}}" style="width: 100%; height: auto">
         {% if include.caption %}
             <span style="font-size: 12px">{{ include.caption }}</span>

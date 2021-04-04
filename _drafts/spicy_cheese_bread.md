@@ -88,15 +88,15 @@ authentic item — and a recipe too good not to share!
 * 280 grams bread flour
 * 140 grams water
 * 40 grams granulated sugar
-* 2 tablespoons room-temperature butter (~30 grams)
-* 1 teaspoon instant yeast (~5 grams)
+* 2 tablespoons unsalted butter, room-temperature (~30 grams)
+* 1 teaspoon instant yeast (~4 grams)
 * 1/2 teaspoon salt (~4 grams)
 * 1 large egg
 * 1 teaspoon dried parsley
 * 1 teaspoon dried chives
 * 1/2 teaspoon red pepper flakes
-* 75 grams mild provolone
-* 75 grams monterey jack
+* 70 grams mild provolone
+* 70 grams monterey jack
 
 **Topping**
 * 1 large egg
@@ -118,7 +118,8 @@ authentic item — and a recipe too good not to share!
 to ~100 degrees F, then dissolve the yeast in the water for 5 minutes.
 * You may want to adjust the amount of red pepper flakes depending on
 your spice tolerance and the particular brand of pepper flakes you have. My kids refused to 
-eat the bread if it had _any_ pepper flakes on it, so I usually omit them entirely.
+eat the bread if it had _any_ pepper flakes on it, so I usually omit them entirely (you can see
+that there are no pepper flakes in the loaf in my pictures below, if you look closely enough).
 * The provolone should **not** be smoked or sharp. It may be difficult to find a
 block of provolone that isn't smoked/sharp, in which case you can use
 pre-sliced bagged provolone — just make sure the ingredients list is just the cheese and doesn't
@@ -130,13 +131,27 @@ have any added ingredients like starch.
 dough comes together, about a minute. Then turn to medium-low speed and
 knead about 5 minutes. The dough should be strong enough to hang off the
 hook without breaking. It may be very sticky: that's fine for right now.
+<div class="container-fluid"><div class="row no-gutters">
+{% include components/post_image.html 
+    src="/images/cheese_bread/dough_ingredients.jpg" 
+    alt="Dough Ingredients"
+    class="col-6"
+%}
+{% include components/post_image.html 
+    src="/images/cheese_bread/bread_on_dough_hook.jpg" 
+    alt="Mixed Dough"
+    class="col-6"
+%}
+</div></div>
+
+{:start="3"}
 1. Remove the bowl from the stand mixer and cover with plastic wrap.
-Let rise in a warm place for about 90 minutes, until a little less than doubled in volume. 
+Let rise in a warm place for about 45-70 minutes, until a little less than doubled in volume. 
 Check after an hour or so; rise times can be variable.
 1. While the dough is rising, take both cheeses out of the fridge and cut
 into roughly 1/2-inch cubes (if provolone is pre-sliced, cut into 1/2-inch slices).
 Leave cheese out on counter to come to room temperature (cold cheese can slow down
-the second rise). 
+the second rise).
 1. Clear a flat workspace and spray it with cooking spray. Also spray
 the rolling pin and cake pan. Turn the dough out onto the greased workspace. If it is
 still sticky, so sticky that working with it is difficult, dust with additional flour
@@ -148,7 +163,7 @@ the short axis to make a log and pinch ends to seal.
 25" long — long enough for you to tie the dough into a loose knot by looping
 one end under the other and pulling up through the middle, which you should do next.
 1. Gently place the dough into the cake pan, recover with the plastic wrap, and
-let rise in a warm place for another 60-90 minutes. Dough may not quite double
+let rise in a warm place for another 45-70 minutes. Dough may not quite double
 in bulk but should at least be noticeably bigger than before, and feel softer
 to the touch than it was right after it was knotted.
 1. While dough is rising, move the oven racks to a low enough position to comfortably 
@@ -170,7 +185,7 @@ Optionally, remove bread from pan and place on a cooling rack to speed up the pr
 
 [^dcfm]:
     Almost certainly the largest farmers' market in the entire country,
-    every Saturday in the Summer the Dane County Farmers' Market runs for four 
+    every Saturday in the summer the Dane County Farmers' Market runs for four 
     solid city blocks and wraps
     entirely around the Wisconsin Capital Building. 
    
