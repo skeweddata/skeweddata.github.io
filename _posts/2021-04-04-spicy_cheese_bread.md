@@ -3,6 +3,7 @@ title:  Spicy Cheese Bread&#58; The Best Baked Good in Wisconsin
 tags:
   - Food
   - Analysis
+  - draft
 preface_text: >-
   <a href="#the-recipe">Not a fan of prose? Jump straight to the recipe!</a>
 ---
@@ -30,18 +31,18 @@ week when the weather is nice.
     credit="<a href='https://www.flickr.com/photos/afagen/8062497693/'>Adam Fagan via Flickr</a> (<a href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>CC BY-NC-SA 2.0</a>)"
 %}
 
-We'd walk the mile or so from our house
+We'd walk the mile or so from our apartment
 to the Capital and enter the market across from State Street. This
 is just downstream of Stella's — foot traffic in the market is
 strictly one-way[^counterclockwise] — and I'm not too proud to admit
 that we would cut against the flow for the 10 feet or so necessary to get to
-the side of the bakery's booth which was dispensing the bread, then waiting
+the side of the bakery's booth which was dispensing the bread. Then we would wait patiently
 in the informal queue of customers before handing over the cash for our 
 fresh-from-the-oven prize. 
 
 And what a prize it was! Over a pound of a sweet, tender, yeasty bread spotted with
 mildly spicy red pepper flakes, stuffed with just so much gooey, melty cheese.
-We'd join the regular flow of the market, bread in hand, ripping off chunks and
+We'd join the regular flow of pedestrians, bread in hand, ripping off chunks and
 stuffing our faces while browsing the other stalls of the market. 
 
 We moved from Madison over six years ago now, and ever since I've been 
@@ -69,17 +70,17 @@ Using the internet recipes as a jumping off point, I started making test loaves,
 tweaking the ingredients based on my understanding of breadmaking and a hearty
 dose of intuition. The first several attempts did not go well — I'm not a
 professional recipe developer by any stretch[^developer] — and it wasn't until
-I finally got my hands on a loaf of Stella's[^mailorder] that I started to make progress.
+I finally got my hands on another real loaf of Stella's[^mailorder] that I started to make progress.
 
 It turns out that Stella's Spicy Cheese Bread conforms to FDA food labeling rules,
-which require food producers to list both the ingredients by weight as well as the 
+which require food producers to list both the ingredients in order of weight as well as the 
 total weight of the food[^exempt]. Additionally, the Spicy Cheese Bread bag loudly
 claimed that each loaf contained a quarter pound of cheese. Combining these weights
 with my general understanding of breadmaking put me on the right track, and a 
 few iterations later I had a loaf that I was happy with.
 
 I should be clear: this recipe is not as good as the real thing — Stella's has over three
-decades of baking experience, and access to professional equipment that I don't. If you
+decades of baking experience, and access to professional equipment that I (and probably you) don't. If you
 live within driving distance of the Dane County Farmer's Market you should absolutely
 go there to get your cheese bread fix! But if you're a Wisconsin expat, a tourist who stopped
 by the Market one Saturday and got hooked, or just someone who thinks a combination of cheese,
@@ -89,7 +90,10 @@ substitute possible. Try it and see!
 
 ## The Recipe
 
-### Ingredients
+**Active Time:** 1 hour
+**Total Time:** 3.5 hours
+
+#### Ingredients
 
 **Dough**
 * 280 grams bread flour
@@ -110,7 +114,7 @@ substitute possible. Try it and see!
 * 1 tablespoon water
 * 1/2 teaspoon red pepper flakes
 
-**Tools**
+#### Tools
 * Stand mixer
 * Small cake pan
 * Large pot, large enough to fit over the cake pan
