@@ -4,7 +4,7 @@ tags:
   - Food
   - Analysis
 preface_text: >-
-  <a href="#the-recipe">(Jump straight to the recipe)</a>
+  <a href="#the-recipe">Not a fan of prose? Jump straight to the recipe!</a>
 ---
 Wisconsin: land of [beer](https://newglarusbrewing.com/), 
 [bratwurst](https://statestreetbrats.com/), and 
