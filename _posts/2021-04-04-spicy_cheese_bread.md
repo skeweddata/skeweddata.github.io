@@ -3,7 +3,6 @@ title:  Spicy Cheese Bread&#58; The Best Baked Good in Wisconsin
 tags:
   - Food
   - Analysis
-  - draft
 preface_text: >-
   <a href="#the-recipe">Not a fan of prose? Jump straight to the recipe!</a>
 ---
