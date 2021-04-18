@@ -65,8 +65,14 @@ is currently Git which, in combination with platforms like GitHub and GitLab, en
 many developers to efficiently develop, share, and collaborate on their code by syncing their
 edits in a shared online space (called a "repository"). 
 
-Because VC only works when developers frequently "check-in" their code updates, a Git repository
-contains a fairly granular record of exactly who contributed which lines of code at what time.
+Because VC only works when developers frequently register ("check-in") their code updates, a Git repository
+does indeed contain a fairly granular record of exactly who contributed which lines of code at what time.
+But what the article misses, however, is that number of commits (and lines of code added/removed, which are also easily 
+tracked) are actually pretty crummy metrics for measuring the value of a contributor. 
+[This](https://softwareengineering.stackexchange.com/questions/194582/how-can-one-measure-contributions-to-a-project) 
+[is](https://hackernoon.com/measure-a-developers-impact-e2e18593ac79) 
+[not](https://www.reddit.com/r/git/comments/f42c55/whats_the_best_way_to_measure_source_code/) 
+[news](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-174.pdf). 
 
 ### Claim #3: Soon we'll be able to do this for any kind of work thanks to Machine Learning<sup>TM</sup> 
 
