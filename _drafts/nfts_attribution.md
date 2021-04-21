@@ -72,7 +72,12 @@ tracked) are actually pretty crummy metrics for measuring the value of a contrib
 [This](https://softwareengineering.stackexchange.com/questions/194582/how-can-one-measure-contributions-to-a-project) 
 [is](https://hackernoon.com/measure-a-developers-impact-e2e18593ac79) 
 [not](https://www.reddit.com/r/git/comments/f42c55/whats_the_best_way_to_measure_source_code/) 
-[news](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-174.pdf). 
+[news](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-174.pdf). And what's worse,
+it's pretty easy to game the system — so easy that people will do it just for the possibility of 
+a [free t-shirt](https://joel.net/how-one-guy-ruined-hacktoberfest2020-drama).
+
+In fairness, it is possible to discern clear high-level signals from number of commits — someone who's made
+90% of all commits on a project has _probably_ contributed real value to it. And 
 
 ### Claim #3: Soon we'll be able to do this for any kind of work thanks to Machine Learning<sup>TM</sup> 
 
