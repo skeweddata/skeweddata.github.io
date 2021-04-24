@@ -1,5 +1,5 @@
 ---
-title:  NFTs, Attribution, and GitHub
+title:  NFTs, Attribution, and Git
 tags:
   - Blockchain
   - Coding
@@ -28,74 +28,75 @@ amount of the adult population.
 <!--more-->
 
 You can read the whole thing at the link above (and I recommend you do), but basically
-the article makes three main claims to build a case for the blockchain-ization of work.
+the article makes three main claims to build a case for the blockchain-ization of work:
 
-### Claim #1: Wouldn't it be great if we paid people based on their direct impact on their company's success?
-This is one of those ideas that seems really right, like "obviously this is how it should work" right, when you
-first hear it[^communist]. But when I think about it a little it loses some of it's appeal: not only
-does it encourage competition between employees instead of collaboration, I'm honestly not convinced
-that it actually leads to better outcomes for the business. 
+1. Wouldn't it be great if we paid people based on their direct impact on their company's success?
+2. We already have the ability to do that in software thanks to version control.
+3. Soon we'll be able to do this for any kind of work thanks to Machine Learning<sup>TM</sup>. 
 
-At my job I was intimately involved in building a model with an 8-figure incremental value to the
-business, something hard to define as anything other than "direct company impact". But I spent
-my first ~18 months at the company on a team that was about as far away from the profit-centers as possible. Should I have gotten lower pay while
-on that non-critical team? If that had actually happened I would have pretty quickly started polishing
-up the ol' resume, and would have been gone long before I could work on the highly impactful
-project. Would that have been good for the company? Similarly, I recently spent ~6
-months building out a vision and roadmap for a project that ultimately had to be shelved due
-to headcount constraints. All that work led to essentially nothing — should I only have been
-paid for half of that year of work? 
+{% include components/post_image.html 
+    src="/images/nfts_attribution/ml_meme.jpg" 
+    alt="Machine Learning, Blockchain, and Big Data"
+    credit="<a href='https://imgflip.com/i/2ed05j'>imgflip</a>"
+%}
 
-It's probably obvious that I think the answer to those questions is a solid "no!" But I'll give this one the 
-benefit of the doubt — maybe the author is referring to something
-less related to the results of the projects and more around the impact of employees
-relative to the roles they're in, or maybe there's an implicit assumption that companies 
-should already be hyper-focusing on their core projects in such a way that
-everyone is doing business-critical work[^intent]. Moving on!
+I originally wrote a detailed breakdown of each claim, but honestly it was pretty negative
+and felt kind of yucky. Suffice it to say I was not a fan of the piece.
 
-### Claim #2: We already have the ability to do that in software thanks to version control
-Assume we are willing to stipulate to Claim #1, the big problem with implementing it is
-one of measurement: how do you figure out who contributed what to a project? The author
-points to the coding community as one place that's figured that out already, thanks to 
-version control (VC). For anyone less familiar with the wooly world of software engineering,
-VC systems allow developers to permanently track granular changes they make to
-their code, and then share those changes with collaborators to ensure that everyone is working
-off of a consistent and up-to-date codebase[^revert]. The most popular VC implementation
-is currently Git which, in combination with platforms like GitHub and GitLab, enables
-many developers to efficiently develop, share, and collaborate on their code by syncing their
-edits in a shared online space (called a "repository"). 
+## Git is a Blockchain
 
-Because VC only works when developers frequently register ("check-in") their code updates, a Git repository
-does indeed contain a fairly granular record of exactly who contributed which lines of code at what time.
-But what the article misses, however, is that number of commits (and lines of code added/removed, which are also easily 
-tracked) are actually pretty crummy metrics for measuring the value of a contributor. 
-[This](https://softwareengineering.stackexchange.com/questions/194582/how-can-one-measure-contributions-to-a-project) 
-[is](https://hackernoon.com/measure-a-developers-impact-e2e18593ac79) 
-[not](https://www.reddit.com/r/git/comments/f42c55/whats_the_best_way_to_measure_source_code/) 
-[news](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-174.pdf). And what's worse,
-it's pretty easy to game the system — so easy that people will do it just for the possibility of 
-a [free t-shirt](https://joel.net/how-one-guy-ruined-hacktoberfest2020-drama).
+Regardless of my feelings about the article, reading it put version control and the blockchain together in my head.
+Specifically, I started to think about the specific combination of the Git version control software with the online
+platforms that host those repositories (e.g. GitHub, GitLab)[^git]. The article is interested in the possibility of adding
+a blockchain-based payment mechanism on top of Git[^implementation], but while I was trying to figure out what that actually
+would mean I realized that Git **itself** is basically a blockchain[^first].
 
-In fairness, it is possible to discern clear high-level signals from number of commits — someone who's made
-90% of all commits on a project has _probably_ contributed real value to it. And 
+{% include components/post_image.html 
+    src="/images/nfts_attribution/git_blockchain.jpg" 
+    alt="Git is a blockchain"
+    credit="<a href='https://imgflip.com/i/56xed4'>imgflip</a>"
+%}
 
-### Claim #3: Soon we'll be able to do this for any kind of work thanks to Machine Learning<sup>TM</sup> 
+Think about it! The commit history is a distributed immutable chain of transactions[^merkle]. Code review is a 
+combination of proof-of-work (the contribution) and proof-of-stake (the reviewer's approval). A Git repository is
+obviously not a spendable currency but that's ok, lots of stuff on the blockchain isn't (e.g. NFTs).
+
+Ok, ok, it's not _exactly_ the same thing as Bitcoin or an NBA Top Shot NFT: 
+* In practice Git projects are highly centralized around one or a few core maintainers who approve changes, rather than relying on a (hopefully large) pool
+of peers working to make and verify approvals. 
+* Determining whether or not new commits should be added to the official version of the codebase is almost always at least partially a manual
+process, unlike "normal" blockchains where this task is fully automated.
+* The less we talk about how often developers need to go back through the commit history and modify it (to remove large files clogging up the repository 
+or — worse — credentials) the better[^bfg].  
+
+But it's pretty damn close, close enough to be a nice way to break in the concept
+behind blockchains and show the potential behind NFTs — it worked on me!
+
+To be clear, I'm far from the first person to have this thought
+
 
 [^koolaid]:
-   I am aware that by this statement alone I have probably doomed myself to the unending
-   ire of crypto-bros. 
-   
-[^communist]:
-   Assuming you're a capitalist, I imagine a socialist would not be quite so excited.
-   
-[^intent]:
-   The piece does say that the contributions to measure are the "ideas that end up being used by the company"
-   rather than a specific dollar profit value,
-   although I've found that the likelihood your idea will be valuable to the company is often
-   more correlated with your proximity to leadership of the profit centers than the actual quality of the thought
-   itself.
-   
-[^revert]:
-   It also lets you quickly _revert_ your codebase back to how it looked at a given moment
-   in time, which is supremely useful for those inevitable times when you make an innocuous-looking
-   change which somehow breaks literally everything.
+    Yes, I am aware that not everyone agrees with this statement, you can spare me the Twitter spam. 
+    
+[^git]:
+    For the sake of brevity I'm going to assume a basic level of understanding of how Git and its online platforms
+    work. If you're unfamiliar with Git or version control in general, the basic gist is that each developer works
+    on a local copy of a shared codebase, makes a bunch of changes ("commits"), then uploads them to the platform
+    and asks to join their changes to the "official" version of the codebase (a "pull request"). Other developers
+    can review the proposed contribution and, if approved, the changes get added ("merged") to the official codebase
+    and propagated to the other developers. For more information, check [here](https://guides.github.com/introduction/git-handbook/).
+
+[^implementation]:
+    As to how this would be implemented the article doesn't get into more detail than "NFTs and smart contracts". Maybe
+    mint an NFT for each commit? Or have a license that makes blockchain contracts which freeze the contributor list
+    for a given version of the package? I don't know, I'm not a blockchain expert.
+    
+[^first]:
+    To be clear, I'm far from the first person to have had this thought.
+    
+[^merkle]:
+    in fact both Git and Bitcoin use the 
+    [same algorithm](https://en.wikipedia.org/wiki/Merkle_tree) to verify their transaction histories.
+    
+[^bfg]:
+    So often a [dedicated open-source tool exists explicitly for this purpose](https://rtyley.github.io/bfg-repo-cleaner/).
