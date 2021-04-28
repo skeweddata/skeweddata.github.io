@@ -7,7 +7,7 @@ tags:
 ---
 
 Recently, at least in the internet channels I frequent, it's been difficult to avoid
-news about stuff going on with cryptocurrency and, especially, NFTs. Most of what I've seen
+news about stuff going on with cryptocurrency and, especially, NFTs[^NFTs]. Most of what I've seen
 tends to be about ongoing [speculative](https://decrypt.co/60971/beeples-nft-artwork-sells-for-60-3-million-in-christies-auction)
 [mania](https://abcnews.go.com/Business/wireStory/twitter-ceo-jack-dorsey-sells-nft-tweet-29m-76616884)
 for [digital](https://www.msn.com/en-us/news/technology/edward-snowdens-nft-sold-for-2455-million-at-auction-for-charity/ar-BB1fKsiv) 
@@ -37,6 +37,7 @@ the article makes three main claims to build a case for the blockchain-ization o
 {% include components/post_image.html 
     src="/images/nfts_attribution/ml_meme.jpg" 
     alt="Machine Learning, Blockchain, and Big Data"
+    caption="At least the article doesn't explictly mention big data, but I'd say it's pretty heavily implied."
     credit="<a href='https://imgflip.com/i/2ed05j'>imgflip</a>"
 %}
 
@@ -49,31 +50,67 @@ Regardless of my feelings about the article, reading it put version control and 
 Specifically, I started to think about the specific combination of the Git version control software with the online
 platforms that host those repositories (e.g. GitHub, GitLab)[^git]. The article is interested in the possibility of adding
 a blockchain-based payment mechanism on top of Git[^implementation], but while I was trying to figure out what that actually
-would mean I realized that Git **itself** is basically a blockchain[^first].
+would mean I realized that Git **itself** is basically a blockchain[^first] of NFTs.
 
 {% include components/post_image.html 
     src="/images/nfts_attribution/git_blockchain.jpg" 
     alt="Git is a blockchain"
+    caption="I'm going to have to start putting 'blockchain developer' on my resume."
     credit="<a href='https://imgflip.com/i/56xed4'>imgflip</a>"
 %}
 
-Think about it! The commit history is a distributed immutable chain of transactions[^merkle]. Code review is a 
+Think about it! The commit history is a distributed immutable chain of transactions[^merkle]. Each commit is non-fungible as
+the code it refers to is distinct from the other commits. Code review is a 
 combination of proof-of-work (the contribution) and proof-of-stake (the reviewer's approval). A Git repository is
 obviously not a spendable currency but that's ok, lots of stuff on the blockchain isn't (e.g. NFTs).
 
-Ok, ok, it's not _exactly_ the same thing as Bitcoin or an NBA Top Shot NFT: 
+Ok, ok, it's not _exactly_ the same thing as Bitcoin, an NBA Top Shot NFT, or anything else that's commonly considered
+as being on the blockchain: 
 * In practice Git projects are highly centralized around one or a few core maintainers who approve changes, rather than relying on a (hopefully large) pool
-of peers working to make and verify approvals. 
-* Determining whether or not new commits should be added to the official version of the codebase is almost always at least partially a manual
+of peers working to make and verify approvals[^private].
+* Determining whether or not new commits should be added to the official version of the codebase is almost always a manual
 process, unlike "normal" blockchains where this task is fully automated.
 * The less we talk about how often developers need to go back through the commit history and modify it (to remove large files clogging up the repository 
-or — worse — credentials) the better[^bfg].  
+or — worse — exposed credentials) the better[^bfg].  
 
-But it's pretty damn close, close enough to be a nice way to break in the concept
-behind blockchains and show the potential behind NFTs — it worked on me!
+But it's pretty damn close! And an analogy doesn't have to be perfect to be useful; black holes are technically neither
+[black](https://www.forbes.com/sites/startswithabang/2019/07/10/sorry-black-holes-arent-actually-black/?sh=2f9d11995c02) 
+nor [holes](https://en.wikipedia.org/wiki/Gravitational_singularity), but that name is more than enough to let a layperson 
+draw a pretty accurate picture of what they are.
+
+{% include components/post_image.html 
+    src="/images/nfts_attribution/black_holes.jpg" 
+    alt="Black holes are neither black nor holes. Discuss"
+    caption="Obligatory."
+    credit="<a href='https://imgflip.com/i/57e0o2'>imgflip</a>"
+%}
+
+## NFTs as Digital Ownership
+
+Furthermore, the interaction between the commit history stored by Git and the online platforms to host those repositories
+is really interesting. Because the mechanism for creating new commits (Git) is a transparent system separate from the platforms that host the code
+for everyone to view, the core data that governs attribution is extremely portable.
+Don't like that Microsoft bought GitHub? Migrate to GitLab! Collaborators don't like GitLab? Try out Bitbucket! This is
+a pretty powerful idea — by virtue of being in a distributed transaction history, your code contributions are resilient to
+platform failure.
+
+NFTs work similarly — the blockchain makes ownership of a particular NFT permanent and easy to verify. They are basically
+a way to enjoy the same rights with digital goods as you have with physical things, which is 
+[a](https://www.consumerreports.org/consumerist/that-amazon-video-you-bought-you-may-not-actually-be-able-to-watch-it/) 
+[very](https://arstechnica.com/information-technology/2013/12/cant-stream-that-christmas-movie-you-bought-on-amazon-blame-disney/) 
+[real](https://www.nytimes.com/2009/07/18/technology/companies/18amazon.html) 
+[problem](https://arstechnica.com/tech-policy/2021/04/apple-faces-class-action-lawsuit-over-its-definition-of-the-word-buy/) 
+as more and more of our lives move online. 
+To me **this** is the core value proposition of NFTs, not buying some token representing a collectible as a bizarre flex 
+of your crypto-cred. 
+ 
 
 To be clear, I'm far from the first person to have this thought
 
+
+[^NFTs]:
+    If you're not already familiar with NFTs, 
+    [here is an overview](https://decrypt.co/resources/non-fungible-tokens-nfts-explained-guide-learn-blockchain).
 
 [^koolaid]:
     Yes, I am aware that not everyone agrees with this statement, you can spare me the Twitter spam. 
@@ -98,5 +135,8 @@ To be clear, I'm far from the first person to have this thought
     in fact both Git and Bitcoin use the 
     [same algorithm](https://en.wikipedia.org/wiki/Merkle_tree) to verify their transaction histories.
     
+[^private]:
+    There are also private code repositories, which are even more restrictive in that the transaction history is non-public.   
+ 
 [^bfg]:
     So often a [dedicated open-source tool exists explicitly for this purpose](https://rtyley.github.io/bfg-repo-cleaner/).
