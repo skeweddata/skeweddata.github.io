@@ -50,7 +50,7 @@ Regardless of my feelings about the article, reading it put version control and 
 Specifically, I started to think about the specific combination of the Git version control software with the online
 platforms that host those repositories (e.g. GitHub, GitLab)[^git]. The article is interested in the possibility of adding
 a blockchain-based payment mechanism on top of Git[^implementation], but while I was trying to figure out what that actually
-would mean I realized that Git **itself** is basically a blockchain[^first] of NFTs.
+would mean I realized that Git **itself** is basically a blockchain of NFTs.
 
 {% include components/post_image.html 
     src="/images/nfts_attribution/git_blockchain.jpg" 
@@ -85,6 +85,15 @@ draw a pretty accurate picture of what they are.
     credit="<a href='https://imgflip.com/i/57e0o2'>imgflip</a>"
 %}
 
+To be clear, I'm [far](https://www.thoughtworks.com/insights/blog/blockchain-under-hood) 
+[from](https://www.reddit.com/r/git/comments/7pgemg/can_git_be_turned_into_a_blockchainlike_system/) 
+[the](https://stackoverflow.com/questions/46192377/why-is-git-not-considered-a-block-chain) 
+[first](https://news.ycombinator.com/item?id=15860027) 
+[person](https://medium.com/@shemnon/is-a-git-repository-a-blockchain-35cb1cd2c491) 
+to notice this similarity. But all the references I found discussing this were from 2018 or earlier, before the current
+wave of speculation and interest and especially the rise of NFTs — the most similar blockchain technology to how distributed
+version control works. I don't understand why nobody is talking about this now.  
+
 ## NFTs as Digital Ownership
 
 Furthermore, the interaction between the commit history stored by Git and the online platforms to host those repositories
@@ -94,18 +103,21 @@ Don't like that Microsoft bought GitHub? Migrate to GitLab! Collaborators don't 
 a pretty powerful idea — by virtue of being in a distributed transaction history, your code contributions are resilient to
 platform failure.
 
-NFTs work similarly — the blockchain makes ownership of a particular NFT permanent and easy to verify. They are basically
+NFTs work similarly — the blockchain makes ownership of a particular NFT permanent and easy to verify. Combined with a
+platform to validate ownership and provide access, they are basically
 a way to enjoy the same rights with digital goods as you have with physical things, which is 
 [a](https://www.consumerreports.org/consumerist/that-amazon-video-you-bought-you-may-not-actually-be-able-to-watch-it/) 
 [very](https://arstechnica.com/information-technology/2013/12/cant-stream-that-christmas-movie-you-bought-on-amazon-blame-disney/) 
 [real](https://www.nytimes.com/2009/07/18/technology/companies/18amazon.html) 
 [problem](https://arstechnica.com/tech-policy/2021/04/apple-faces-class-action-lawsuit-over-its-definition-of-the-word-buy/) 
 as more and more of our lives move online. 
-To me **this** is the core value proposition of NFTs, not buying some token representing a collectible as a bizarre flex 
+To me **this** is the core value proposition of NFTs, not buying some token representing a collectible as a flex 
 of your crypto-cred. 
+
+But this is far more pedestrian and — dare I say it — _boring_ than breathless prose about the latest person to drop a fortune on a reference
+to a jpeg, or people selling their memes[^memes].
  
 
-To be clear, I'm far from the first person to have this thought
 
 
 [^NFTs]:
@@ -128,9 +140,6 @@ To be clear, I'm far from the first person to have this thought
     mint an NFT for each commit? Or have a license that makes blockchain contracts which freeze the contributor list
     for a given version of the package? I don't know, I'm not a blockchain expert.
     
-[^first]:
-    To be clear, I'm far from the first person to have had this thought.
-    
 [^merkle]:
     in fact both Git and Bitcoin use the 
     [same algorithm](https://en.wikipedia.org/wiki/Merkle_tree) to verify their transaction histories.
@@ -140,3 +149,7 @@ To be clear, I'm far from the first person to have this thought
  
 [^bfg]:
     So often a [dedicated open-source tool exists explicitly for this purpose](https://rtyley.github.io/bfg-repo-cleaner/).
+    
+[^memes]:
+    Although I will say that I think it's a nice silver lining that minting these NFTs allows these people to
+    finally earn some money from their almost-entirely-unwanted notoriety. 
