@@ -97,7 +97,7 @@ version control works. I don't understand why nobody is talking about this now.
 ## NFTs as Digital Ownership
 
 Furthermore, the interaction between the commit history stored by Git and the online platforms to host those repositories
-is really interesting. Because the mechanism for creating new commits (Git) is a transparent system separate from the platforms that host the code
+is really interesting. Because the mechanism for creating new commits is a transparent system separate from the platforms that host the code
 for everyone to view, the core data that governs attribution is extremely portable.
 Don't like that Microsoft bought GitHub? Migrate to GitLab! Collaborators don't like GitLab? Try out Bitbucket! This is
 a pretty powerful idea — by virtue of being in a distributed transaction history, your code contributions are resilient to
@@ -114,8 +114,11 @@ as more and more of our lives move online.
 To me **this** is the core value proposition of NFTs, not buying some token representing a collectible as a flex 
 of your crypto-cred. 
 
+<the metaverse will run on the blockchain>
+
 But this is far more pedestrian and — dare I say it — _boring_ than breathless prose about the latest person to drop a fortune on a reference
-to a jpeg, or people selling their memes[^memes].
+to a jpeg, or people selling NFTs of their old memes[^memes]. It also relies on the presence of centralized gatekeepers,
+which is anathema to the crypto-anarchists who tend to dominate the discussion about the utility of the technology.
  
 
 
