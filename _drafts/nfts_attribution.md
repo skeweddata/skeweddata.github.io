@@ -114,14 +114,25 @@ as more and more of our lives move online.
 To me **this** is the core value proposition of NFTs, not buying some token representing a collectible as a flex 
 of your crypto-cred. 
 
-<the metaverse will run on the blockchain>
+Imagine that instead of buying a license to an eBook from Amazon, one that you have incredibly limited rights over, what you
+actually purchased was a freshly minted NFT corresponding to the eBook. Instantly you have the ability to re-sell that eBook,
+either transferring it directly yourself or via a trusted intermediary platform. It also greatly limits Amazon's ability to 
+remove your ability to read the book — they can't revoke the license, and even if they kick you off of their platform entirely
+you can take your NFT somewhere else to validate your license and let you read the book. No longer do companies control both
+the distribution of licenses and the access to the content, which blunts lock-in and gives the customer more power.
 
 But this is far more pedestrian and — dare I say it — _boring_ than breathless prose about the latest person to drop a fortune on a reference
-to a jpeg, or people selling NFTs of their old memes[^memes]. It also relies on the presence of centralized gatekeepers,
-which is anathema to the crypto-anarchists who tend to dominate the discussion about the utility of the technology.
+to a jpeg, or people selling NFTs of their old memes[^memes]. It also relies on the presence of centralized gatekeepers to convert
+the licenses to actual content,
+which is anathema to the crypto-anarchists who tend to dominate the discussion about the utility of the technology. People selling
+stakes in digital property are probably the most public version of my vision for NFTs, with just
+enough "we're building the metaverse!" hype to get articles published[^example]. That's a shame, because it makes NFTs 
+seem like a joke to anyone who isn't already convinced of their value proposition. The crypto community could do a lot better
+in terms of actually making crypto more mainstream if they focused less on these extreme examples of decentralized finance
+and put together some business plans that would make sense even to people who don't want to nerd out about distributed ledgers
+or put their money into something with volatility so high it 
+[draws comparisons to a lottery](https://www.businesstimes.com.sg/wealth-investing/the-bitcoin-lottery).
  
-
-
 
 [^NFTs]:
     If you're not already familiar with NFTs, 
@@ -156,3 +167,11 @@ which is anathema to the crypto-anarchists who tend to dominate the discussion a
 [^memes]:
     Although I will say that I think it's a nice silver lining that minting these NFTs allows these people to
     finally earn some money from their almost-entirely-unwanted notoriety. 
+
+[^example]:
+    For example, [this post](https://medium.com/the-challenge/state-of-the-metaverse-2021-9f032fed655b) from earlier
+    this year, which hits on the importance of severing the connection between ownership and access but does so
+    amidst stories about video games, a plea for an "Omniverse", and wild claims about AI. None of it is wrong
+    or particularly misguided (well, except perhaps for the AI part), but it's not exactly the easiest thing for someone to 
+    engage with unless they're already
+    pretty far down the blockchain rabbit hole.  
