@@ -37,8 +37,9 @@
         // Create a simple banner.
         var agree = document.createElement('div');
         agree.className = "navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom";
+        agree.style.cursor = "pointer";
         agree.innerHTML = `
-        <span class="navbar-text" style="color:rgba(255, 255, 255, 0.9); margin:auto; text-align:center">
+        <span class="navbar-text" style="color:rgba(255, 255, 255, 0.9); margin:auto; text-align:center;">
         This site collects anonymous pageview statistics to help me understand broad readership trends. Please click to agree.
         </span>`;
 
@@ -52,7 +53,8 @@
             window.goatcounter.bind_events(); // If you use events.
         })
 
-        document.body.appendChild(agree)
+        document.body.appendChild(agree);
+        document.body.style.paddingBottom = "30px";  // prevents overlap with text
     })()
 </script>
 <script data-goatcounter="https://rook166.goatcounter.com/count"
