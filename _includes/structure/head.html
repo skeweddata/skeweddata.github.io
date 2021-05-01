@@ -15,12 +15,20 @@
 
     <script src="{{ site.baseurl }}/theme/js/jquery-3.4.1.min.js"></script>
     <script src="{{ site.baseurl }}/theme/js/bootstrap-4.4.1.bundle.min.js"></script>
-    <script src="{{ site.baseurl }}/theme/js/custom_footnotes.js"></script>
+    <script src="{{ site.baseurl }}/theme/js/jquery.inline-footnotes.min.js"></script>
 
     <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/site.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/syntax.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/theme/css/jquery.inline-footnotes.min.css">
     <link rel="alternate" type="application/atom+xml" title="Skewed" href="{{ site.baseurl }}/feed.xml">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
 
     <meta name="follow_it-verification-code" content="AKaKrHY394ECKG69wLyh"/>
+    <script>
+		$(document).ready(function() {
+		  	$.inlineFootnotes({
+		  	    columnWidth: 11550000
+		  	});
+        });
+	</script>
 </head>
