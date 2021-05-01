@@ -8,14 +8,15 @@ tags:
 
 Recently, at least in the internet channels I frequent, it's been difficult to avoid
 news about stuff going on with cryptocurrency and, especially, NFTs[^NFTs]. Most of what I've seen
-tends to be about ongoing [speculative](https://decrypt.co/60971/beeples-nft-artwork-sells-for-60-3-million-in-christies-auction)
+tends to be about ongoing speculative
 [mania](https://abcnews.go.com/Business/wireStory/twitter-ceo-jack-dorsey-sells-nft-tweet-29m-76616884)
-for [digital](https://www.msn.com/en-us/news/technology/edward-snowdens-nft-sold-for-2455-million-at-auction-for-charity/ar-BB1fKsiv) 
+[for](https://decrypt.co/60971/beeples-nft-artwork-sells-for-60-3-million-in-christies-auction) 
+[digital](https://www.msn.com/en-us/news/technology/edward-snowdens-nft-sold-for-2455-million-at-auction-for-charity/ar-BB1fKsiv) 
 [certificates](https://www.marketwatch.com/story/what-is-nba-top-shot-everything-you-need-to-know-about-the-digital-asset-with-over-230-million-in-transactions-11614287023)
 of 
 kinda-sorta-maybe-ownership (weird), the 
 [serious environmental cost of cryptocurrency mining](https://decrypt.co/4218/dont-dismiss-bitcoins-environmental-impact)
-(alarming), or people who accidentally gained — and the lost — 
+(alarming), or people who accidentally gained — and then lost — 
 [huge](https://www.theguardian.com/uk-news/2021/jan/14/man-newport-council-50m-helps-find-bitcoins-landfill-james-howells) 
 [fortunes](https://www.bloomberg.com/news/newsletters/2021-01-12/money-stuff-don-t-forget-your-bitcoins) 
 (amusing, mostly). Nothing
@@ -129,7 +130,8 @@ stakes in digital property are probably the most public version of my vision for
 enough "we're building the metaverse!" hype to get articles published[^example]. That's a shame, because it makes NFTs 
 seem like a joke to anyone who isn't already convinced of their value proposition. The crypto community could do a lot better
 in terms of actually making crypto more mainstream if they focused less on these extreme examples of decentralized finance
-and put together some business plans that would make sense even to people who don't want to nerd out about distributed ledgers
+and put together some business plans that would make sense even to people who don't want to nerd out about 
+[virtual land](https://www.reuters.com/business/metaverse-bet-crypto-rich-investors-snap-up-virtual-real-estate-2021-04-19/)
 or put their money into something with volatility so high it 
 [draws comparisons to a lottery](https://www.businesstimes.com.sg/wealth-investing/the-bitcoin-lottery).
  
