@@ -11,10 +11,10 @@ preface_text: >-
   has soured substantially. There's no reason that a non-blockchain
   platform couldn't produce something with the same functionality
   at substantially lower cost and environmental impact. In fact,
-  that's how much of crypto actually works today --- [Sky Mavis
-  controls which Axies you're allowed to use](https://support.axieinfinity.com/hc/en-us/articles/4404703037851-Banned-Axies-Appealing-an-Account-Ban),
-  and [OpenSea functions as a centralized clearinghouse for whether an
-  NFT is tradeable](https://moxie.org/2022/01/07/web3-first-impressions.html). It
+  that's how much of crypto actually works today --- <a href=' https://support.axieinfinity.com/hc/en-us/articles/4404703037851-Banned-Axies-Appealing-an-Account-Ban'>Sky Mavis
+  controls which Axies you're allowed to use</a>,
+  and <a href=' https://moxie.org/2022/01/07/web3-first-impressions.html'>OpenSea functions as a centralized clearinghouse for whether an
+  NFT is tradeable</a>. <br><br>It
   might be necessary to use crypto as the mechanism to bring about
   this mode of digital ownership (I'm not quite as swayed by arguments
   that we shouldn't have any kind of scarcity in digital goods, as
