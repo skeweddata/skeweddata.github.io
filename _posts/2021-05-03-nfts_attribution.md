@@ -11,7 +11,7 @@ preface_text: >-
   has soured substantially. There's no reason that a non-blockchain
   platform couldn't produce something with the same functionality
   at substantially lower cost and environmental impact. In fact,
-  that's how much of crypto actually works today --- <a href=' https://support.axieinfinity.com/hc/en-us/articles/4404703037851-Banned-Axies-Appealing-an-Account-Ban'>Sky Mavis
+  that's how much of crypto actually works today — <a href=' https://support.axieinfinity.com/hc/en-us/articles/4404703037851-Banned-Axies-Appealing-an-Account-Ban'>Sky Mavis
   controls which Axies you're allowed to use</a>,
   and <a href=' https://moxie.org/2022/01/07/web3-first-impressions.html'>OpenSea functions as a centralized clearinghouse for whether an
   NFT is tradeable</a>. <br><br>It
