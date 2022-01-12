@@ -4,6 +4,26 @@ tags:
   - Blockchain
   - Coding
   - Rants
+preface_text: >-
+  Update 2022-01-12: After ~six months of thinking about it, reading
+  about it, and actually putting a (very) small amount of money into
+  cryptocurrencies, my opinion on the value of blockchain-based NFTs
+  has soured substantially. There's no reason that a non-blockchain
+  platform couldn't produce something with the same functionality
+  at substantially lower cost and environmental impact. In fact,
+  that's how much of crypto actually works today --- [Sky Mavis
+  controls which Axies you're allowed to use](https://support.axieinfinity.com/hc/en-us/articles/4404703037851-Banned-Axies-Appealing-an-Account-Ban),
+  and [OpenSea functions as a centralized clearinghouse for whether an
+  NFT is tradeable](https://moxie.org/2022/01/07/web3-first-impressions.html).
+
+  It
+  might be necessary to use crypto as the mechanism to bring about
+  this mode of digital ownership (I'm not quite as swayed by arguments
+  that we shouldn't have any kind of scarcity in digital goods, as
+  scarcity is still the most efficient way I know of to provide financial
+  recompense to creators), due to the sheer amount of money in the
+  space that would not be available otherwise, but NFTs increasingly
+  seem to me like a stepping stone on that path rather than the endgame.
 ---
 
 Recently, at least in the internet channels I frequent, it's been difficult to avoid
