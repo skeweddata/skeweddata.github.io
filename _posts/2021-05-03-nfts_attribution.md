@@ -14,9 +14,7 @@ preface_text: >-
   that's how much of crypto actually works today --- [Sky Mavis
   controls which Axies you're allowed to use](https://support.axieinfinity.com/hc/en-us/articles/4404703037851-Banned-Axies-Appealing-an-Account-Ban),
   and [OpenSea functions as a centralized clearinghouse for whether an
-  NFT is tradeable](https://moxie.org/2022/01/07/web3-first-impressions.html).
-
-  It
+  NFT is tradeable](https://moxie.org/2022/01/07/web3-first-impressions.html). It
   might be necessary to use crypto as the mechanism to bring about
   this mode of digital ownership (I'm not quite as swayed by arguments
   that we shouldn't have any kind of scarcity in digital goods, as
