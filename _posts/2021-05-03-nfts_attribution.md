@@ -21,7 +21,9 @@ preface_text: >-
   scarcity is still the most efficient way I know of to provide financial
   recompense to creators), due to the sheer amount of money in the
   space that would not be available otherwise, but NFTs increasingly
-  seem to me like a stepping stone on that path rather than the endgame.
+  seem to me like a stepping stone on that path rather than the
+  endgame.
+  <br><br>The original post is below. 
 ---
 
 Recently, at least in the internet channels I frequent, it's been difficult to avoid
