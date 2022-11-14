@@ -15,7 +15,7 @@ excerpt_separator: <!--more-->
 # Config for your profile.
 title:            Skewed            # Site title
 name:             Andrew Schechtman-Rook            # Your name
-avatar:           /theme/img/avatar.png   # Path to an avatar image
+avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 subtitles:
   - Stupid Data Tricks
